@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import folium
@@ -13,7 +12,7 @@ st.set_page_config(layout="wide", page_title="Luxembourg Historical Map Prototyp
 st.title("🏛️ Luxembourg City Historical & Rental Map")
 st.markdown("Prototype showcasing historical locations, businesses, and available spaces.")
 
-# Инициализация состояния карты
+# Initialize map state
 if 'map_center' not in st.session_state:
     st.session_state.map_center = [49.6116, 6.1319]
 if 'map_zoom' not in st.session_state:
@@ -27,7 +26,7 @@ def load_and_geocode_data(file_path):
     # Clean column names
     df.columns = df.columns.str.strip().str.title()
 
-    # Автоматическое извлечение года из колонки Source (ищет 4 знака, начинающиеся с 18, 19 или 20)
+    # Automatically extract year from the Source column
     if 'Source' in df.columns:
         df['Year'] = df['Source'].astype(str).str.extract(r'(18\d{2}|19\d{2}|20\d{2})')[0]
         df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
@@ -75,12 +74,36 @@ def load_and_geocode_data(file_path):
     df['Longitude'] = longitudes
     return df
 
-# Replace with your full file path if needed
+# Replace with your file path if needed
 data_path = "luxembourg_places.csv"
 
 # Load & Geocode
 with st.spinner("Loading map and geocoding addresses..."):
     df = load_and_geocode_data(data_path)
+
+# --- MAP COLORS & AUTOMATIC COLOR ASSIGNMENT ---
+# Folium supports: red, blue, green, purple, orange, darkred, lightred, beige, darkblue, darkgreen, cadetblue, darkpurple, white, pink, lightblue, lightgreen, gray, black
+COLOR_PALETTE = [
+    "red", "blue", "green", "orange", "purple", "darkred", 
+    "cadetblue", "darkgreen", "darkblue", "pink", "gray"
+]
+
+def get_marker_color(type_str):
+    t = str(type_str).lower()
+    if "event" in t:
+        return "purple"
+    elif "accident" in t:
+        return "darkred"
+    elif "caf" in t:  # Matches both 'cafe' and 'café'
+        return "orange"
+    elif "rent" in t:
+        return "green"
+    elif "sale" in t:
+        return "blue"
+    elif "dentist" in t:
+        return "red"
+    else:
+        return "cadetblue"
 
 # 2. Sidebar Search & Filter Controls
 st.sidebar.header("🔍 Search & Filters")
@@ -90,33 +113,29 @@ search_query = st.sidebar.text_input("Search Keyword (Name / Description):", "")
 all_types = df['Type'].astype(str).unique().tolist()
 selected_types = st.sidebar.multiselect("Filter by Type:", options=all_types, default=all_types)
 
-# --- Фильтр по годам ---
+# --- Year Filter ---
 all_years = sorted([int(y) for y in df['Year'].dropna().unique()])
 if all_years:
     selected_years = st.sidebar.multiselect("Filter by Year:", options=all_years, default=all_years)
 else:
     selected_years = []
 
-# --- ЛЕГЕНДА КАРТЫ ---
+# --- DYNAMIC MAP LEGEND ---
 st.sidebar.markdown("---")
-st.sidebar.subheader("🎨 Легенда карты")
-st.sidebar.markdown(
-    """
-    <div style="line-height: 1.8;">
-        <span style="height: 12px; width: 12px; background-color: #3182bd; display: inline-block; border-radius: 50%; margin-right: 8px;"></span><b>Housing (sale):</b> Синий<br>
-        <span style="height: 12px; width: 12px; background-color: #31a354; display: inline-block; border-radius: 50%; margin-right: 8px;"></span><b>Housing (rent):</b> Зеленый<br>
-        <span style="height: 12px; width: 12px; background-color: #de2d26; display: inline-block; border-radius: 50%; margin-right: 8px;"></span><b>Dentists:</b> Красный<br>
-        <span style="height: 12px; width: 12px; background-color: #e6550d; display: inline-block; border-radius: 50%; margin-right: 8px;"></span><b>Cafes:</b> Оранжевый
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.sidebar.subheader("🎨 Map Legend")
 
-# Apply Filters to DataFrame (Type + Year + Search)
+legend_html = '<div style="line-height: 1.8;">'
+for t_name in all_types:
+    c = get_marker_color(t_name)
+    legend_html += f'<span style="height: 12px; width: 12px; background-color: {c}; display: inline-block; border-radius: 50%; margin-right: 8px;"></span><b>{t_name}:</b> {c.capitalize()}<br>'
+legend_html += '</div>'
+
+st.sidebar.markdown(legend_html, unsafe_allow_html=True)
+
+# Apply Filters to DataFrame
 filtered_df = df[df['Type'].astype(str).isin(selected_types)]
 
 if all_years and selected_years:
-    # Оставляем объекты, у которых год входит в выбранный список, либо год не указан (NaN)
     filtered_df = filtered_df[filtered_df['Year'].isin(selected_years) | filtered_df['Year'].isna()]
 
 if search_query:
@@ -124,7 +143,7 @@ if search_query:
     desc_match = filtered_df['Description'].astype(str).str.contains(search_query, case=False, na=False)
     filtered_df = filtered_df[name_match | desc_match]
 
-# 3. Main Screen Layout (Map on Left, Detail Cards on Right)
+# 3. Main Screen Layout
 col1, col2 = st.columns([2, 1])
 
 with col1:
@@ -133,7 +152,6 @@ with col1:
     m = folium.Map(location=st.session_state.map_center, zoom_start=st.session_state.map_zoom, tiles="OpenStreetMap")
     
     for idx, row in filtered_df.iterrows():
-        # Добавим вывод года в попап, если он нашелся
         year_str = f"<p><b>Year:</b> {int(row['Year'])}</p>" if pd.notna(row.get('Year')) else ""
         
         popup_html = f"""
@@ -147,16 +165,7 @@ with col1:
         </div>
         """
         
-        color = "blue"
-        t_val = str(row['Type']).lower()
-        if "cafe" in t_val:
-            color = "orange"
-        elif "rent" in t_val or "space" in t_val:
-            color = "green"
-        elif "dentist" in t_val:
-            color = "red"
-        elif "sale" in t_val:
-            color = "blue"
+        color = get_marker_color(row['Type'])
             
         folium.Marker(
             location=[row['Latitude'], row['Longitude']],
