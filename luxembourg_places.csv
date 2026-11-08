@@ -93,99 +93,252 @@ Housing (rent),9 rooms house (Bridelstraße),"House for rent, 9 rooms, located i
   Pub. 27 Page 8. (1935, May 27). Luxemburger Wort, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1935-05-27-a-i0082"
 Housing (rent),6-rooms house (Avenue Gaston Diederich),"House for rent, 6 rooms,   kitchen, bathroom, central heating, hot and cold water, garage, gas, electricity, Bel'airstraße, 15,000 Fr. — Apply by Tel. 29-51. 988  ","Avenue Gaston Diederich, Luxembourg",15000,"
   Pub. 36 Page 7. (1929, July 27). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-07-27-a-i0079"
-Dentist,Ad Schmit,,"Esch Alzette, Rue de lAlzette, 65",,
-Dentist,Adolphe Folmer,,"Luxembourg, Avenue de la Gare, 97",,
-Dentist,Alfred Weber,,"Avenue de la Liberté, 35",,
-Dentist,Alfred Weber,,"Luxembourg, rue des Bains, 4",,
-Dentist,Aphonse Molitor,,"Avenue de la Liberte, 28",,
-Dentist,Aug Thorn,,Boulevard Royal 25,,
-Dentist,Auguste Decker,,"Villa Collart, 3082",,
-Dentist,Baumgart W,,"Wellen, 8",,
-Dentist,Bisenius,,Esch-Alz,,
-Dentist,Bisenius,,"Rue de V Alzette, 100",,
-Dentist,Calteux J P,,"Luxembourg, Gare, 7477",,
+Dentist,Ad Schmit,,"Esch Alzette, Rue de lAlzette, 65",,tageblatt-1929-08-24-a-i0149
+Dentist,Adolphe Folmer,,"Luxembourg, Avenue de la Gare, 97",,luxwort-1931-01-19-a-i0074
+Dentist,Alfred Weber,,"Avenue de la Liberté, 35",,luxwort-1923-05-05-a-i0061
+Dentist,Alfred Weber,,"Luxembourg, rue des Bains, 4",,luxwort-1921-01-27-a-i0043
+Dentist,Aphonse Molitor,,"Avenue de la Liberte, 28",,luxwort-1928-12-06-a-i0053
+Dentist,Aug Thorn,,Boulevard Royal 25,,tageblatt-1929-08-02-a-i0119
+Dentist,Auguste Decker,,"Villa Collart, 3082",,tageblatt-1937-01-02-a-i0154
+Dentist,Baumgart W,,"Wellen, 8",,obermosel-1923-09-15-a-i0042
+Dentist,Bisenius,,Esch-Alz,,tageblatt-1932-09-19-a-i0074
+Dentist,Bisenius,,"Rue de V Alzette, 100",,tageblatt-1925-07-03-a-i0051
+Dentist,Calteux J P,,"Luxembourg, Gare, 7477",,luxwort-1924-05-01-a-i0035
 Dentist,Camille Backes,,Mondorf,,
-Dentist,Camille Welter,,"Place da Marché, 4336",,
-Dentist,Camp Montbrun,,"rue Philippe, 21",,
-Dentist,Campill F,,"rue Notre Dame, 23",,
-Dentist,Charles SCHMID,,Bettemburg,,
-Dentist,Charles Thewes,,"avenue monterey, 17",,
-Dentist,Dauphin,,"Mussetstrasse, 7",,
-Dentist,Dr H. Petgen,,Bonneweg,,
-Dentist,Dr J. Schiltz,,"avenue de la Liberté, 74",,
-Dentist,Edmond Hoffmann,,"Kayl, rue du Commerce, 22",,
-Dentist,Emile Weinachter,,"16, rue Aldringer ",,
-Dentist,Engler Jos,,"Heinestraße, 10",,
-Dentist,Ernest Deitz,,Ettelbruck,,
-Dentist,Ernest Schneider,,"Luxembourg, Avenue Marie Therese, 24",,
-Dentist,Ernest Weber,,"BOSNEVEC, Bonnewegerstr, 110",,
-Dentist,Ferdy Campill,,"Luxembourg, Rue du Curé, 5bis",,
-Dentist,Fischer J B,,"1 , Avenue de la Gare",,
-Dentist,Fischer J B,,"Avenue de la Gare, 46",,
-Dentist,Fischer J B,,"Luxembourg, 10 rue Jos Junck",,
+Dentist,Camille Welter,,"Place da Marché, 4336",,luxwort-1934-05-31-a-i0075
+Dentist,Camp Montbrun,,"rue Philippe, 21",,luxwort-1938-09-15-a-i0072
+Dentist,Campill F,,"rue Notre Dame, 23",,luxwort-1939-08-05-a-i0114
+Dentist,Charles SCHMID,,Bettemburg,,tageblatt-1939-07-24-a-i0096
+Dentist,Charles Thewes,,"avenue monterey, 17",,luxwort-1926-02-27-a-i0055
+Dentist,Dauphin,,"Mussetstrasse, 7",,luxwort-1930-11-06-a-i0059
+Dentist,Dr H. Petgen,,Bonneweg,,luxwort-1934-09-03-a-i0070
+Dentist,Dr J. Schiltz,,"avenue de la Liberté, 74",,luxwort-1939-08-08-a-i0086
+Dentist,Edmond Hoffmann,,"Kayl, rue du Commerce, 22",,tageblatt-1938-01-19-a-i0117
+Dentist,Emile Weinachter,,"16, rue Aldringer ",,luxembourg1935-1938-08-04-a-i0116
+Dentist,Engler Jos,,"Heinestraße, 10",,luxwort-1934-08-07-a-i0081
+Dentist,Ernest Deitz,,Ettelbruck,,luxwort-1925-08-14-a-i0062
+Dentist,Ernest Schneider,,"Luxembourg, Avenue Marie Therese, 24",,tageblatt-1929-07-15-a-i0112
+Dentist,Ernest Weber,,"BOSNEVEC, Bonnewegerstr, 110",,tageblatt-1939-08-08-a-i0096
+Dentist,Ferdy Campill,,"Luxembourg, Rue du Curé, 5bis",,luxwort-1924-06-04-b-i0015
+Dentist,Fischer J B,,"1 , Avenue de la Gare",,luxwort-1925-02-17-a-i0042
+Dentist,Fischer J B,,"Avenue de la Gare, 46",,indeplux-1933-05-03-a-i0033
+Dentist,Fischer J B,,"Luxembourg, 10 rue Jos Junck",,tageblatt-1930-07-10-a-i0106
 Dentist,n. Fixmer,,Grossstrasse 90,,
-Dentist,François Hippert,,"Heinestr, 8",,
-Dentist,François Wirion,,"Avenue Monterey, 17",,
-Dentist,Friedrich J P,,"place Guillaume, Luxembourg",,
-Dentist,Gaston Jungers,,"ROdange, Avenue de la Gare, 29",,
-Dentist,Gaston Ternes,,"Place de la Gare, 78",,
-Dentist,Gust Decker,,"Luxembourg, Wilhelmsplatz, 9201",,
-Dentist,H. Petgen,,"Bonnewegstrasse, 131",,
-Dentist,Hans Hansen,,Petingen,,
-Dentist,Henri Kuntsch,,"Petange, Avenue de la gare, 19",,
-Dentist,Henri Sadler,,"Avenue de la Gare, 19",,
-Dentist,Henri Sadler,,"Petange, Avenue de la gare, 19",,
-Dentist,J. B. Fischer,,"Avenue de la Gare, 1",,
-Dentist,Jean Pierre WELTER,,"Zlthastr, 20",,
-Dentist,Jeanne Trierweiler,,"Luxembourg, 74?Avenue de la Liberté",,
-Dentist,Jos Hoeltgen,,"Differdangen, Werkstrasse",,
-Dentist,Jos Hoeltgen,,Werkstrasse,,
-Dentist,Jos Kremer,,"Rue bourbon, 5",,
-Dentist,Joseph Schiltz,,"Avenue de la Liberté, 74",,
-Dentist,JUNGBLUT,,"Luxembourg, Strassbnrgerstr, 100",,
-Dentist,Knauff F.,,Montereystr 3,,
-Dentist,Kremer Jos,,"Luxembourg, Rue Bourbon, 5",,
-Dentist,Kroth Jos,,"Trier, Saarstrasse, 38",,
-Dentist,Marcel KLEIN,,Wiltz (Lann) maison Thillens-Schaack,,
-Dentist,Marcelle DAUPHIN,,"Grand rue, 84",,
-Dentist,Marcelle Dauphin,,"Rue de L'Arsenal, 16",,
-Dentist,Marcelle Dauphin,,"rue Notre Dame, 38",,
-Dentist,Mathfw Sehmitz,,"Avenu Pasteur, 8",,
-Dentist,Mich KIEFFER,,"Rue Aldringer, 17",,
-Dentist,Helene (Stoltz) Phillipart ,,"Place d'Armes, 3",,
-Dentist,MONTBRUN,,"Philipstrasse, 21",,
-Dentist,N Fixmer,,"Avenue de l'Arsenal, 4",,
-Dentist,NILLES,,"Alzettestrasse, 113",,
-Dentist,NILLES JOS,,"Esch Alzette, Alzettestrasse, 113",,
-Dentist,Paol PETERS,,"St. Theresienklinlk, Luxemburg-Bahnoph",,
-Dentist,Paul FELLENS,,Clerf,,
-Dentist,Paul Heisbourg,,"Place Guillaume, 7 rue Chimay 7",,
-Dentist,Paul Schroel,,"Esch-sur-Alzette, Rue Xavier Brasseur, 12",,
-Dentist,Peschon Jos,,"Avenue de l Arsenal, 9",,
-Dentist,Peter Bredimus,,"Esch, Victor Hugostrasse, 26",,
-Dentist,Raoul Schroeder,,Eich,,
-Dentist,Raoul Schroeder,,"Eich, rue de Beggen, 12",,
-Dentist,Reckinger Ad,,"Boulevard du Prince, 1",,
-Dentist,René Picrion,,"Schuistrasse, 4",,
-Dentist,René Stoffel,,"Großstraße, 97",,
-Dentist,René Tierweiler,,"Echternach, Rue de Luxembourg, 33",,
-Dentist,René Trierweiler,,"16, rue Glessener",,
-Dentist,Robert Leesch,,"Avenue de la Liberté, 35",,
-Dentist,Rudolph Pliefke,,"Bollendorf, Sauer Kirchstrasse, 59",,
-Dentist,SCHILTZ Luc,,"Place d'Armes, 2",,
-Dentist,Schmit,,"Esch-Alzette, Rue de l Alzette, 65",,
-Dentist,Scholtes Eug,,"Esch Alzette, rue C M Spoo, 64",,
-Dentist,Sinners,,"Kirchstrasse, 30",,
-Dentist,Helene (Stoltz) Phillipart ,,"rue du casino, 7",,
-Dentist,Theisen Jos,,Esch,,
-Dentist,Theisen Jos,,"Esch Alzette, Alzettestrasse, 4",,
-Dentist,Theo Rauchs,,Differdange,,
-Dentist,Theo Rauchs,,"Differdangen, Avenue de la Gare, 25",,
-Dentist,Theo Rauchs,,"Differdangen, Parc de Gerlache, 12",,
-Dentist,Theodore Michel,,"Luxembourg, Avenue de la Gare, 18",,
-Dentist,Theodore Michel,,"LUXEMBURG, Grosstrasse, 47",,
-Dentist,Victor Thorn,,"Boulevard Royal, 49",,
-Dentist,Waldbillig J P,,"ESCH, Gartenstrasse, 9",,
-Dentist,Weinacht Tit,,"Rue Aldringer, 19",,
-Dentist,WELTER J P,,Trois?Vierges,,
-Dentist,Wolter,,Dudelingen,,
+Dentist,François Hippert,,"Heinestr, 8",,luxwort-1938-11-09-a-i0144
+Dentist,François Wirion,,"Avenue Monterey, 17",,luxwort-1919-10-16-a-i0022
+Dentist,Friedrich J P,,"place Guillaume, Luxembourg",,tageblatt-1932-04-06-a-i0113
+Dentist,Gaston Jungers,,"ROdange, Avenue de la Gare, 29",,tageblatt-1937-04-12-a-i0091
+Dentist,Gaston Ternes,,"Place de la Gare, 78",,luxwort-1938-01-21-a-i0122
+Dentist,Gust Decker,,"Luxembourg, Wilhelmsplatz, 9201",,tageblatt-1939-08-18-a-i0110
+Dentist,H. Petgen,,"Bonnewegstrasse, 131",,luxwort-1933-09-02-a-i0099
+Dentist,Hans Hansen,,Petingen,,luxwort-1939-08-02-a-i0077
+Dentist,Henri Kuntsch,,"Petange, Avenue de la gare, 19",,tageblatt-1936-10-08-a-i0113
+Dentist,Henri Sadler,,"Avenue de la Gare, 19",,luxwort-1936-10-24-a-i0085
+Dentist,Henri Sadler,,"Petange, Avenue de la gare, 19",,luxwort-1936-10-07-a-i0096
+Dentist,J. B. Fischer,,"Avenue de la Gare, 1",,luxwort-1925-03-10-a-i0061
+Dentist,Jean Pierre WELTER,,"Zlthastr, 20",,luxwort-1938-08-25-a-i0087
+Dentist,Jeanne Trierweiler,,"Luxembourg, 74?Avenue de la Liberté",,luxwort-1931-10-06-a-i0077
+Dentist,Jos Hoeltgen,,"Differdangen, Werkstrasse",,tageblatt-1929-07-17-b-i0054
+Dentist,Jos Hoeltgen,,Werkstrasse,,luxwort-1929-07-16-a-i0072
+Dentist,Jos Kremer,,"Rue bourbon, 5",,luxwort-1922-07-31-a-i0037
+Dentist,Joseph Schiltz,,"Avenue de la Liberté, 74",,luxwort-1938-09-22-a-i0067
+Dentist,JUNGBLUT,,"Luxembourg, Strassbnrgerstr, 100",,luxwort-1930-09-12-a-i0063
+Dentist,Knauff F.,,Montereystr 3,,luxwort-1938-01-21-a-i0122
+Dentist,Kremer Jos,,"Luxembourg, Rue Bourbon, 5",,luxwort-1922-09-01-a-i0050
+Dentist,Kroth Jos,,"Trier, Saarstrasse, 38",,luxwort-1923-02-08-a-i0053
+Dentist,Marcel KLEIN,,Wiltz (Lann) maison Thillens-Schaack,,luxwort-1938-09-26-a-i0096
+Dentist,Marcelle DAUPHIN,,"Grand rue, 84",,luxwort-1932-09-03-b-i0014
+Dentist,Marcelle Dauphin,,"Rue de L'Arsenal, 16",,tageblatt-1926-08-30-a-i0054
+Dentist,Marcelle Dauphin,,"rue Notre Dame, 38",,luxwort-1937-09-28-a-i0094
+Dentist,Mathfw Sehmitz,,"Avenu Pasteur, 8",,luxwort-1936-08-18-a-i0125
+Dentist,Mich KIEFFER,,"Rue Aldringer, 17",,luxembourg1935-1937-09-18-a-i0115
+Dentist,Helene (Stoltz) Phillipart ,,"Place d'Armes, 3",,indeplux-1926-08-07-a-i0031
+Dentist,MONTBRUN,,"Philipstrasse, 21",,luxwort-1937-04-05-a-i0097
+Dentist,N Fixmer,,"Avenue de l'Arsenal, 4",,indeplux-1919-09-27-a-i0054
+Dentist,NILLES,,"Alzettestrasse, 113",,tageblatt-1929-08-07-a-i0093
+Dentist,NILLES JOS,,"Esch Alzette, Alzettestrasse, 113",,tageblatt-1929-07-24-a-i0135
+Dentist,Paol PETERS,,"St. Theresienklinlk, Luxemburg-Bahnoph",,luxwort-1928-08-25-a-i0073
+Dentist,Paul FELLENS,,Clerf,,luxwort-1928-08-25-a-i0073
+Dentist,Paul Heisbourg,,"Place Guillaume, 7 rue Chimay 7",,luxwort-1931-01-05-a-i0062
+Dentist,Paul Schroel,,"Esch-sur-Alzette, Rue Xavier Brasseur, 12",,luxembourg1935-1937-06-26-a-i0114
+Dentist,Peschon Jos,,"Avenue de l Arsenal, 9",,luxwort-1933-08-02-a-i0084
+Dentist,Peter Bredimus,,"Esch, Victor Hugostrasse, 26",,luxwort-1926-06-19-a-i0057
+Dentist,Raoul Schroeder,,Eich,,tageblatt-1933-07-25-a-i0100
+Dentist,Raoul Schroeder,,"Eich, rue de Beggen, 12",,luxwort-1932-11-16-a-i0073
+Dentist,Reckinger Ad,,"Boulevard du Prince, 1",,luxwort-1923-05-24-a-i0041
+Dentist,René Picrion,,"Schuistrasse, 4",,tageblatt-1934-06-01-a-i0135
+Dentist,René Stoffel,,"Großstraße, 97",,luxwort-1937-09-23-a-i0083
+Dentist,René Tierweiler,,"Echternach, Rue de Luxembourg, 33",,luxembourg1935-1939-05-26-a-i0084
+Dentist,René Trierweiler,,"16, rue Glessener",,luxwort-1938-06-14-a-i0136
+Dentist,Robert Leesch,,"Avenue de la Liberté, 35",,luxwort-1931-02-01-a-i0072
+Dentist,Rudolph Pliefke,,"Bollendorf, Sauer Kirchstrasse, 59",,luxwort-1931-04-30-a-i0069
+Dentist,SCHILTZ Luc,,"Place d'Armes, 2",,luxembourg1935-1937-09-18-a-i0115
+Dentist,Schmit,,"Esch-Alzette, Rue de l Alzette, 65",,tageblatt-1929-08-16-a-i0140
+Dentist,Scholtes Eug,,"Esch Alzette, rue C M Spoo, 64",,luxwort-1936-06-04-a-i0098
+Dentist,Sinners,,"Kirchstrasse, 30",,tageblatt-1936-05-30-a-i0164
+Dentist,Helene (Stoltz) Phillipart ,,"rue du casino, 7",,luxwort-1930-12-13-a-i0089
+Dentist,Theisen Jos,,Esch,,luxwort-1938-01-31-a-i0090
+Dentist,Theisen Jos,,"Esch Alzette, Alzettestrasse, 4",,tageblatt-1934-06-01-a-i0135
+Dentist,Theo Rauchs,,Differdange,,tageblatt-1935-06-08-a-i0174
+Dentist,Theo Rauchs,,"Differdangen, Avenue de la Gare, 25",,tageblatt-1934-05-28-a-i0089
+Dentist,Theo Rauchs,,"Differdangen, Parc de Gerlache, 12",,tageblatt-1939-09-16-a-i0098
+Dentist,Theodore Michel,,"Luxembourg, Avenue de la Gare, 18",,indeplux-1926-09-24-a-i0034
+Dentist,Theodore Michel,,"LUXEMBURG, Grosstrasse, 47",,tageblatt-1929-08-08-a-i0129
+Dentist,Victor Thorn,,"Boulevard Royal, 49",,luxwort-1923-07-05-a-i0041
+Dentist,Waldbillig J P,,"ESCH, Gartenstrasse, 9",,tageblatt-1923-09-12-a-i0083
+Dentist,Weinacht Tit,,"Rue Aldringer, 19",,luxembourg1935-1938-08-09-a-i0117
+Dentist,WELTER J P,,Trois?Vierges,,luxwort-1933-09-02-a-i0099
+Dentist,Wolter,,Dudelingen,,tageblatt-1930-07-10-a-i0106
+Event,M O L O C H (Comedy),"Municipal Theatre of Luxembourg.   Reopening.   DEMANNÉ TOURS.   THURSDAY, September 26, 1929.   M O L O C H   Comedy in four acts by A. Boussac de St. Marc.   Stage music by Michel Maurice LÉVY, featuring Mr. Le BARGY and Mrs. Suzanne DEVOYOD, members (sociétaires) of the Comédie-Française.   TICKET PRICES:   Balcony 1st and 2nd row: Fr. 25.00; Balcony 3rd row: Fr. 20.00; Stalls: Fr. 25.00; Main Floor / Orchestra (Parquet): Fr. 15.00; Pit (Parterre): Fr. 10.00; Amphitheatre: Fr. 6.00, cloakroom included.  ","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","TICKET PRICES:   Balcony 1st and 2nd row: Fr. 25.00; Balcony 3rd row: Fr. 20.00; Stalls: Fr. 25.00; Main Floor / Orchestra (Parquet): Fr. 15.00; Pit (Parterre): Fr. 10.00; Amphitheatre: Fr. 6.00,","
+  Pub. 34 Page 7. (1929, October 2). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-10-02-a-i0063"
+Event,Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein,"Popular / Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein.   180 Singers   Saturday, Nov. 19, at 8:30 PM in the CERCLE, Luxembourg.   Advance ticket price Fr. 15.—.   Advance sales until Thursday evening, November 17, at Music House SCHELLENBERG (Avenue de la Liberté), Music House WOLF (Heiliggeiststrasse), and G. HAMEL (5 Zithastrasse), Luxembourg. 6799","2 Rue Genistre, 1623 Ville-Haute Luxembourg",Advance ticket price Fr. 15,"(1932, November 12). Escher Tageblatt, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/tageblatt-1932-11-12-a-i0141"
+Event,Children's Matinee  organized by the UNION OF WOMEN OF FRANCE ,"Municipal Theatre of Luxembourg   
+
+Box office: 2:00 PM — Curtain: 3:00 PM   
+
+SUBSCRIPTIONS SUSPENDED   
+
+THURSDAY, December 22, 1938   
+
+Children's Matinee  organized by the UNION OF WOMEN OF FRANCE  for the benefit of its Holiday Camps (Colonies de Vacances), with the gracious participation of:   
+
+The Conservatory Orchestra Class under the direction of Professor René EIFFES   
+Selected performers from the Conservatory Mixed Choir under the direction of Mrs. A. GALLÉ, Conservatory professor, and Mr. Victor JAANS, baritone and soloist at the Monte Carlo and Ostend Kursaals   
+PROGRAM:   
+I. 't Kröschtköndehe könnt   
+by Th. WIES (in 3 acts) — (Luxembourgish dialect play: ""The Christmas Child is Coming"")   
+II. a) Recitations;   
+b) Rhythmic dances  performed by the students of Mlle Annette BECKER, Mme J. EDELMANN, and Mlle Anny RAM   
+III. An Old Luxembourgish Christmas in 6 tableaux, translated into modern language by M. Mathias TRESCH, set to music by M. Lucien LAMBOTTE, Director of the Conservatory   
+Stage Management: M. Josy IMDAHL and Mme M. TRESCH   
+TICKET PRICES: Balconies 1st and 2nd row: Fr. 12.00; Balcony 3rd row: Fr. 10.00; Orchestra stalls: Fr. 12.00; Center stalls: Fr. 10.00; Side stalls and side box: Fr. 8.00; Parquet: Fr. 7.00; Pit (Parterre): Fr. 5.00; Amphitheatre: Fr. 3.00, cloakroom included.   
+For ticket rentals/reservations, apply at the theatre box office on WEDNESDAY, December 21, from 1:15 to 2:30 PM and from 6:00 to 7:00 PM, and on THURSDAY, December 22, from 2:00 PM onwards.   
+IMPORTANT NOTICE: To avoid errors and omissions, please reserve seats in writing and not by telephone. — Pre-ordered tickets must be collected fifteen minutes before the performance. 6500   ","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","Balconies 1st and 2nd row: Fr. 12.00; Balcony 3rd row: Fr. 10.00; Orchestra stalls: Fr. 12.00; Center stalls: Fr. 10.00; Side stalls and side box: Fr. 8.00; Parquet: Fr. 7.00; Pit (Parterre): Fr. 5.00; Amphitheatre: Fr. 3.00, cloakroom included.","
+  Publicité 7 Page 6. (1938, December 21). Luxembourg (1935), 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1938-12-21-a-i0099"
+Café,Restaurant Josy COMES,,PHILIPPSTRASSE,,"
+  Publicité 9 Page 8. (1937, June 21). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-06-21-a-i0081"
+Café,Cecil & Regina,"RESTAURANT of the 
+Combined Hotels Cecil & Regina,   
+LUXEMBOURG-STATION,   
+32/34 Rue Joseph Junck   
+(opposite the Central Station).   
+LUNCHES AND SUPPERS: fixed price menus:   
+Soup or appetizer, one main dish of choice, dessert Frs. 12.-   
+Soup or appetizer, two main dishes, dessert Frs. 16.-   
+and à la carte.   
+Natural wines - Diekirch Beers   
+ON TAP / ON DRAUGHT: Wellensteiner Veilchenberg.   ","32/34 Rue Joseph Junck, Luxembourg","Soup or appetizer, one main dish of choice, dessert Frs. 12.-   
+Soup or appetizer, two main dishes, dessert Frs. 16.-   ","
+  Pub. 27 Page 6. (1931, April 29). Luxemburger Wort, 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1931-04-29-a-i0070"
+Café,"Café-Restaurant
+Mme A. Brasseur-Fischbach ","Good food, good drink, and cozy comfort await you at the Café-Restaurant
+Mme A. Brasseur-Fischbach 37 Avenue de la Liberté
+Luxembourg-Station district next to Paris-Palace. 250","37 Avenue de la Liberté, Luxembourg",,"
+  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089"
+Event,Lyric gala,"MUNICIPAL THEATRE OF LUXEMBOURG.
+Box office: 8:00 PM — Curtain: 8:30 PM
+THURSDAY, February 25, 1937
+LYRIC GALA
+Martha HEUERTZ-HORWA
+of the Royal Theatre of Ghent
+Floria Tosca
+Louis ARNOULT
+of the Opéra-Comique of Paris
+Mario Cavaradossi
+VENANT PAUKÉ
+of the Opéra-Comique
+Baron Scarpia
+LA TOSCA
+Opera (lyric drama) in 3 acts. — Libretto by Illica & Giacosa.
+Music by Giacomo Puccini.
+Georges VILLIEZ
+of the Opéra-Comique
+The Sacristan
+Léon MAUBEUGE = Angelotti
+DOGNIES = Spoletta
+René LITS = Sciarrone
+Cécile NEIENS = The Shepherd
+Orchestra and Choir of RADIO-LUXEMBOURG
+under the direction of Henri Pensis.
+Stage Director: Georges Villiez. — Set Design: Jules Van Dievoet.
+— — — — — — — — — — —
+Ticket prices: Balconies 1st and 2nd row: Fr. 30; Balcony 3rd row: Fr. 25; Orchestra stalls: Fr. 30; Center stalls: Fr. 27; Side stalls: Fr. 18; Parquet: Fr. 15; Pit (Parterre): Fr. 10; Amphitheatre: Fr. 6, cloakroom included.
+For reservations, apply at the theatre box office: WEDNESDAY, February 24, from 1:15 to 2:30 PM and from 6:00 to 7:00 PM, and THURSDAY, February 25, from 1:15 to 2:30 PM and half an hour before the performance.
+Subscribers are requested to collect their tickets before THURSDAY at 2:00 PM.
+Important Notice. — To avoid errors and omissions, please order seats in writing and not by telephone at the municipal theatre booking office. — Pre-ordered tickets must be collected fifteen minutes before the performance.","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","Ticket prices: Balconies 1st and 2nd row: Fr. 30; Balcony 3rd row: Fr. 25; Orchestra stalls: Fr. 30; Center stalls: Fr. 27; Side stalls: Fr. 18; Parquet: Fr. 15; Pit (Parterre): Fr. 10; Amphitheatre: Fr. 6, cloakroom included.","  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089"
+Café,KONS Hotel-Brasserie ,"
+KONS Hotel-Brasserie   
+LUXEMBOURG   
+Telephone: 58-75 and 58-76   
+Renowned French Cuisine   
+LunchesBrasserie  Fr. 12.50   
+and Dinners Restaurant Fr. 18.00   
+— FIXED PRICE — 10   
+Tea Room from 3 to 6 o'clock   ","26 Pl. de la Gare, 2965 Gare Luxembourg","LunchesBrasserie  Fr. 12.50   
+and Dinners Restaurant Fr. 18.00  ","
+  Publicité 4 Page 3. (1935, April 16). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-04-16-a-i0072"
+Accident,Road accident (Boulevard Royal),"Road Accident. — Yesterday evening around 8:00 PM at the intersection of Avenue Marie-Thérèse and Boulevard Royal, a fast-moving automobile struck a pedestrian who, due to the violence of the impact, was thrown 10 meters. It is feared that he suffered serious injuries. The police immediately opened an investigation.","32 Bd Royal, 2449 Ville-Haute Luxembourg",,"
+  Accident de la route. (1935, July 29). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-07-29-a-i0025"
+Café,Café des Bours,"
+OPENING   of the  ""Café des Boursiers""   
+Luxembourg City, 8 Neutorstraße  on Saturday, April 29.   
+— Renovated in the most modern style —   
+First-class beverages/refreshments — Cold buffet   
+MOUSEL-PILSEN    Altmünster-Urhell   
+3838 Proprietor E. KLEEBLATT.   ","8, rue de la Porte Neuve",,"
+  Pub. 50 Page 12. (1933, April 29). Luxemburger Wort, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1933-04-29-a-i0131"
+Accident,Car Accident   (Boulevard de la Petrusse),"Car Accident   
+✶ Emerging at high speed from Boulevard de la Pétrusse on Saturday around 5:00 PM, the car of a merchant from Place Wallis struck the 9-year-old daughter of Mr. Jacquemart at the corner of Avenue de la Gare. A wheel of the vehicle ran over the child's foot, who fortunately was only slightly injured. Mr. Jacquemart immediately filed a complaint against the careless driver.","1 Av. de la Gare, 1611 Gare Luxembourg",,"
+  Accident d’auto. (1924, July 13). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1924-07-13-a-i0043"
+Accident,Car Theft (Grund),"Car Theft   Yesterday evening, a retiree/man of independent means from Boulevard de la Foire had gone to one of the establishments in the Station district. When he left around midnight, his car, which he had left in front of the door, had disappeared. The police, immediately notified, gave chase and found the runaway car in the suburb of the Grund. The thieves did not know that the bridge over the Pétrusse was under repair and crashed into the fence surrounding the construction site. The car came very close to falling into the stream. The thieves were therefore forced to continue on foot. At present, they are still at large.","7 Rue Münster, 2160 Grund Luxembourg",,"
+  Vol d’auto. (1925, May 16). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1925-05-16-a-i0039"
+Accident,Prank,"Ridiculous Prank   Unknown individuals, after removing the wire mesh closing off the niche where ""Peter Unruh"" rests in the St-Crispin rock, moved the statue onto one of the nearby benches.  ",1535 Limpertsberg Luxembourg,,"Commencement d’incendie. (1922, February 22). L’indépendance Luxembourgeoise, 1. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1922-02-22-b-i00074
+  "
+Dentist,Murder in a garage,"A Murder in a Garage   A tragedy unfolded last night on the outer boulevard under circumstances not yet fully explained.   Yesterday evening, Mr. Florent Frauenberg-Pauls, a horse trader residing on Boulevard de la Foire, was at the establishment called ""Vieux Luxembourg"" in the company of a certain Mr. Armand Krier, a car driver residing in Luxembourg.   Shortly after them, there also arrived the named Dominique Kersch, 24 years old, a mechanic in Esch-sur-Alzette (mistyped as Aix-sur-Alzette), and two of his friends who had accompanied him on a sidecar ride.   A brief altercation occurred at one point between the companions of Kersch and Frauenberg. However, the argument did not last. Around 12:15 AM, as they were preparing to leave, Kersch told Frauenberg and Krier that a rather serious breakdown had occurred with his sidecar. The latter examined it, and finally Frauenberg proposed to carry out the necessary repairs at the former Wag- garage located on Boulevard Extérieur, currently operated by Messrs. Hoffmann and Pauls, the latter being Frauenberg's brother-in-law.
+From the moment the men entered the garage, a bit of mystery—which, moreover, would soon be dispelled—shrouded the tragedy. According to the information obtained at the present time, just as the repair was about to be completed and Kersch was still bent over the machine, he received a formidable blow to the back of his neck delivered with a club or a hammer. Kersch stated that he managed to straighten up and wanted to defend himself against Frauenberg, who fled. Kersch then had time to grab his revolver; he fired and Frauenberg fell struck dead.
+Meanwhile, Krier had hidden behind an automobile, but Kersch, threatening him with his revolver, forced him to come out of his hiding place, enter the office, and keep his hands in the air. Once there, Kersch telephoned the police to report that he was being attacked by bandits and that he had killed a man. Then he waited, continuing to aim his revolver at Krier, who remained in the same position.
+It was in this situation that Commissioner Entringer and his officers found the two men. It was then two o'clock in the morning.
+At the time of writing, the Public Prosecutor's Office is carrying out the usual investigations, and the results will no doubt soon be known, along with the conclusions of the forensic doctor in charge of the autopsy.
+Frauenberg, born July 7, 1890, married since 1914, was the father of a young daughter.",Bd Grande-Duchesse Charlotte,,"
+  Un meurtre dans un Garage. (1922, March 20). L’indépendance Luxembourgeoise, 1. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1922-03-20-a-i0048"
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
+Dentist,,,,,
