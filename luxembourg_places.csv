@@ -1,37 +1,37 @@
-﻿Type,Name,Description,Address,Price,Source
-Housing (sale),4-rooms house (François Boch),"House with 4 large rooms, garden in front and behind the house, located between Rue Franç. Boch and Rollingergrundstraße, for sale. — Apply to 89 rue François Boch. Tel. 39-99. 2249",89 rue François Boch.,,
+Type,Name,Description,Address,Price,Source,Latitude,Longitude
+Housing (sale),4-rooms house (François Boch),"House with 4 large rooms, garden in front and behind the house, located between Rue Franç. Boch and Rollingergrundstraße, for sale. — Apply to 89 rue François Boch. Tel. 39-99. 2249",89 rue François Boch.,,,49.6173854,6.1153858
 Housing (rent),5-rooms house (Av. de la Gare),"5 rooms, kitchen, and fitted bathroom, with all comforts, in a newly built house, available for rent immediately. — Apply to H. Loewenstein, Av. de la Gare, No. 22. 2138","22, Av. de la Gare, Luxembourg",,"
-  Pub. 57 Page 14. (1935, May 11). Luxemburger Wort, 14. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1935-05-11-a-i0157"
+  Pub. 57 Page 14. (1935, May 11). Luxemburger Wort, 14. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1935-05-11-a-i0157",49.6804619,5.8109889
 Housing (rent),5 rooms apartment (Avenue de la Liberté),"Beautiful, modern apartment
-for rent immediately, 15 Avenue de la Liberté, 3rd floor, 5 rooms, kitchen, heating and bath, possibly a mansard, completely new. Apply to 45 Blvd. de la Pétrusse. 3743","15 Avenue de la Liberté, Luxembourg",,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0139"
+for rent immediately, 15 Avenue de la Liberté, 3rd floor, 5 rooms, kitchen, heating and bath, possibly a mansard, completely new. Apply to 45 Blvd. de la Pétrusse. 3743","15 Avenue de la Liberté, Luxembourg",,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0139",49.6062814,6.1291222
 Housing (rent),3-rooms apartement (Zithastraße),"29 Zithastraße, beautiful, self-contained apartment,
-3 rooms, kitchen, fitted bathroom, mansard, cellar, heating, gas, water, electricity. — Apply in the same house, ground floor. 3826","29 Zithastraße, Luxembourg",,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0140"
-Housing (rent),2-rooms apartment (Gasperich),"Gasperich, ground floor, 2 rooms, kitchen, heating, 275 fr.","Gasperich, Luxembourg",275,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0141"
-Housing (rent),3-rooms apartement (Neumerl),"Neumerl: 2nd floor, 3 rooms, kitchen, bath, mansard, separate heating, 425 fr.","Neumerl, Luxembourg",425,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0142"
-Housing (rent),4-rooms apartment (Girogetti),"Quartier Giorgetti: ground floor, 4 rooms, kitchen, bath, separate heating, garden, 570 fr.","Quartier Giorgetti, Luxembourg",570,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0143"
+3 rooms, kitchen, fitted bathroom, mansard, cellar, heating, gas, water, electricity. — Apply in the same house, ground floor. 3826","29 Zithastraße, Luxembourg",,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0140",49.6116,6.1319
+Housing (rent),2-rooms apartment (Gasperich),"Gasperich, ground floor, 2 rooms, kitchen, heating, 275 fr.","Gasperich, Luxembourg",275,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0141",49.5914896,6.1246553
+Housing (rent),3-rooms apartement (Neumerl),"Neumerl: 2nd floor, 3 rooms, kitchen, bath, mansard, separate heating, 425 fr.","Neumerl, Luxembourg",425,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0142",49.6116,6.1319
+Housing (rent),4-rooms apartment (Girogetti),"Quartier Giorgetti: ground floor, 4 rooms, kitchen, bath, separate heating, garden, 570 fr.","Quartier Giorgetti, Luxembourg",570,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0143",49.6116,6.1319
 Housing (rent),8-rooms house (Avenue de la Liberté),"Detached house: 8 rooms, bath, heating, garage and garden, 800 fr. Apply to Comptoir Foncier, 7 Av. de la Liberté, Tel. 53-51. 3824
-","7 Av. de la Liberté, Luxembourg",800,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0144"
-Housing (rent),4-rooms (38 Straßburgerstraße),"Beautiful, self-contained 3rd floor, 4 rooms, kitchen, fitted bathroom, floor heating. Price 450 fr., for rent. — Apply to 38 Straßburgerstraße, Gare. 4651"," 38 Straßburgerstraße, Luxembourg",450,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0145"
+","7 Av. de la Liberté, Luxembourg",800,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0144",49.6068477,6.1286581
+Housing (rent),4-rooms (38 Straßburgerstraße),"Beautiful, self-contained 3rd floor, 4 rooms, kitchen, fitted bathroom, floor heating. Price 450 fr., for rent. — Apply to 38 Straßburgerstraße, Gare. 4651"," 38 Straßburgerstraße, Luxembourg",450,"Pub. 67 Page 11. (1939, June 3). Luxemburger Wort, 11. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-06-03-a-i0145",49.6116,6.1319
 Housing (sale),House (Itzigerstraße),"A Residential House,with barn, stable, warehouse, garage, washhouse, courtyard, garden, and other outbuildings, all in one plot, located in Luxembourg-Bonnevoie, 40 Itzigerstraße, bordering the aforementioned street at the front, Gustav Peckels and associates at the back, next to Michel May on one side and Johann Marteling-Thill on the other, measuring 11 ares 85 centiares.
 The property will be offered as a whole or in lots; plan on the posters.
 For viewings, please apply on Tuesday and Friday afternoons to the auctioneer Mr. Johann Schwartz, 42 Longwyer-Straße, telephone number 60-27.
 Luxembourg, December 7, 1939.
 6950 Jos. Knaff, Notary.","40 Itzigerstraße, Luxembourg",,"
-  Pub. 43 Page 10. (1939, December 9). Luxemburger Wort, 10. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-12-09-a-i0097"
+  Pub. 43 Page 10. (1939, December 9). Luxemburger Wort, 10. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1939-12-09-a-i0097",49.6116,6.1319
 Housing (sale),11-rooms house (41 Boulevard Extérieur),"A Residential House, with carriage entrance, side building plot, and garden, located in Luxembourg, 41 Boulevard Extérieur, bordered by Bernard Geisen-Dondlinger and Mathias Schiltz-Klein, bordering the aforementioned Boulevard Extérieur and the Public Works Administration, measuring 2.80 ares.
 This solidly built, two-story residential house, in immaculate condition, features eleven living rooms, kitchen, and bathroom. It is equipped with all modern conveniences (central heating, gas, water, and electricity).
 Located in the immediate vicinity of the booming quarter of Neumerl, this property offers an excellent investment.
 For viewings, please apply to the seller in the house itself, Wednesdays and Fridays in the afternoon from 3–5 PM.
 Cap, October 26, 1938. 5258
 Léon Bourg, Notary.","41 Boulevard Extérieur, Luxembourg",,"
-  Pub. 67 Page 15. (1938, November 12). Luxemburger Wort, 15. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-12-a-i0175"
+  Pub. 67 Page 15. (1938, November 12). Luxemburger Wort, 15. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-12-a-i0175",49.6116,6.1319
 Housing (sale),4-rooms house (2 Avenue Pescatore_,"A Stately Residential House with grounds, garden, and garage, located in Luxembourg, 2 Avenue Pescatore, forming the corner of Bäderstraße, also bordered by M. M. Levy and K. Eydt, measuring an area of 3 ares 98 centiares.
 It contains on the ground floor 4 rooms, bathroom, and kitchen. On the 1st floor 5 rooms, bathroom, and kitchen. On the 2nd floor 4 mansard rooms. Furthermore attic and cellar. Central heating.
 Located in the center of Luxembourg and in top condition, this property is ideal for a doctor, lawyer, or setting up offices, etc.
 For viewings, apply in the morning at the house itself. 4431
 Dudelange, October 20, 1938.
 Tony Neuman, Notary.","2 Avenue Pescatore, Luxembourg",,"
-  Pub. 67 Page 15. (1938, November 12). Luxemburger Wort, 15. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-12-a-i0175"
+  Pub. 67 Page 15. (1938, November 12). Luxemburger Wort, 15. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-12-a-i0175",49.6137369,6.1294788
 Housing (sale),22-rooms house (46 Avenue de la Liberté),"A Three-Story Residential and Commercial Building
 with grounds, courtyard, rear building, and all other appurtenances, all in one plot, located in Luxembourg, 46 Avenue de la Liberté, between Jacques Biwer on one side, Dr. Gantenbein on the other, bordering Avenue de la Liberté at the front and Glesener Frères at the back, measuring 2 ares 05 centiares.   The said property, which is in very good condition, contains:
 on the ground floor: large spacious commercial premises with a pastry shop salon (Konditorei-Salon), a living room, and kitchen in the side wing;
@@ -44,22 +44,22 @@ Electricity, gas, W.C., mains drainage (tout-à-l'égout), and water connection.
 ☞ Favorable capital investment. ☜   For viewings of the property to be auctioned, please apply to the owner Mr. MAASSEN, 4 rue des Dahlias, and for information regarding the terms, apply to the undersigned notary.
 Luxembourg, April 5, 1938.
 Edmond REIFFERS, Notary.  ","46 Avenue de la Liberté, Luxembourg",,"
-  Publicité 8 Page 8. (1938, April 26). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1938-04-26-a-i0076"
+  Publicité 8 Page 8. (1938, April 26). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1938-04-26-a-i0076",49.6028727,6.1312742
 Housing (sale),5-rooms house (89 Boulevard Extérieur),"1. A Two-Story Residential House with grounds, garden, outbuildings, and rear building, located in Luxembourg, 89 Boulevard Extérieur, next to Lambert on one side, Bigelbach Brothers on the other, bordering Brück, Nimax, Glesener, and Wies, containing 3.50 ares.
 It contains on the ground floor 5 spacious rooms, on each of the two floors 6 rooms as well as spacious mansard rooms and cellars.","89 Boulevard Extérieur, Luxembourg",,"
-  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128"
+  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128",49.6116,6.1319
 Housing (sale),9 rooms house (6 Avenue Jean-Pierre Brasseur),"2. A Two-Story Residential House
 with grounds, garden, and outbuildings, located in Luxembourg, 6 Avenue Jean-Pierre Brasseur, next to Brasseur and Perrard, bordering Hanff at the rear, containing 2.50 ares.
 It contains 9 large rooms as well as spacious mansard rooms and cellars.
 Both houses are in excellent structural condition and, due to their high rental value, are excellent investment opportunities. 5730","6 Avenue Jean-Pierre Brasseur, Luxembourg",,"
-  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128"
+  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128",49.6116,6.1319
 Housing (sale),7-rooms house (21 rue de la Paix),"A Fine Single-Family House with grounds, garden, and other outbuildings, located in Bonnevoie, 21 rue de la Paix (Bongeschgowan), between J. P. Arrensdorff and Franz Dostert, bordering Frieseisen and J. P. Müller at the rear, measuring 108 sq meters.
 Contains 7 rooms, attic, and cellar.
 Gas, water supply.
 Due to its extremely convenient and quiet location, 5 minutes from the main railway station, this property is ideal for civil servant or retiree accommodation. 6915
 Eich, October 16, 1930.
 Ernst BRINCOUR, Notary.","21 rue de la Paix, Bonnevoie, Luxembourg",,"
-  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128"
+  Pub.  Page 19. (1930, October 18). Luxemburger Wort, 19. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1930-10-18-a-i0128",49.6116,6.1319
 Housing (sale),12-rooms house (21 rue de la Paix),"A Residential and Commercial Building, with grounds and outbuildings, located in Luxembourg, Plateau Bourbon, Elisabethstraße, next to the Sacred Heart Church and Hôtel Moderne, bordering the aforementioned street at the front, measuring 1.13 ares.
 This house, built in reinforced concrete (béton armé) and of first-class material, with all modern comforts: central heating, hot and water supply throughout the house, features: on the ground floor: large commercial premises with secondary room; on 3 floors and mansards, 4 times 4 rooms and bathroom.
 — Annual rental income: 32,000 francs. —
@@ -68,7 +68,7 @@ Until the day of the auction, the aforementioned property can be purchased priva
 Interested parties should apply to the undersigned notary or Mr. Cerf Israel, real estate agent in Luxembourg, Goethestraße. 2970
 Cap, January 11, 1934.
 Léon BOURG, Notary.","Plateau Bourbon, Elisabethstraße, Luxembourg",,"
-  Pub. 39 Page 9. (1934, January 20). Luxemburger Wort, 9. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1934-01-20-a-i0120"
+  Pub. 39 Page 9. (1934, January 20). Luxemburger Wort, 9. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1934-01-20-a-i0120",49.6116,6.1319
 Housing (sale),51 Rue de Neuerburg,"A Residential and Commercial Building,
 with grounds, path, and warehouse, located in Luxembourg-Bonnevoie, 51 Neypergsstraße, formerly Poststraße, next to Jean Kelsen and Brosius, bordering the named street, registered in the cadastre of the former municipality of Hollerich, Section B, under No. 597/3719, measuring 3.30 ares.
 This commercial building, located in the immediate vicinity of the central railway station, with all modern comforts: central heating, mains drainage (tout-à-l'égout), etc., is in immaculate condition.
@@ -78,120 +78,120 @@ It is ideally suited for wholesale businesses, warehouses, etc.
 — Excellent capital investment. —
 Cap, January 11, 1934.
 Léon BOURG, Notary.","51 Rue de Neuerburg, Luxembourg",,"
-  Pub. 39 Page 9. (1934, January 20). Luxemburger Wort, 9. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1934-01-20-a-i0120"
+  Pub. 39 Page 9. (1934, January 20). Luxemburger Wort, 9. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1934-01-20-a-i0120",49.6463309,6.1270118
 Housing (sale),13-rooms house (2 Avenue Pescatore),"A Stately Residential House with grounds, garden, and garage, located in Luxembourg, 2 Avenue Pescatore, forming the corner of Bäderstraße, also bordered by M. M. Levy and K. Eydt, measuring an area of 3 ares 98 centiares.
 It contains on the ground floor 4 rooms, bathroom, and kitchen. On the 1st floor 5 rooms, bathroom, and kitchen. On the 2nd floor 4 mansard rooms. Furthermore attic and cellar. Central heating.
 Located in the center of Luxembourg and in top condition, this property is ideal for a doctor, lawyer, or setting up offices, etc.
 For viewings, apply in the morning at the house itself. 4431
 Dudelange, October 20, 1938.
 Tony Neuman, Notary."," 2 Avenue Pescatore, Luxembourg",,"
-  Pub. 15 Page 7. (1938, November 8). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-08-a-i0098"
-Housing (rent),3-4 rooms house (rue du nord),"Newly restored ground floor available for rent immediately,   corner house at 21 Nord- and Leonardstraße, Bonnevoie, comprising 3–4 rooms plus mansard, suitable for a shop, office, or warehouse/depot. — Inquire on site from Madame SCHNEIDER, 1st floor. 4595   ","21 rue du nord , Luxembourg",,"Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118"
-Housing (rent),2 bedrooms (Avenue de la Liberte),"Very fine furnished apartment, parlor with grand piano, office, 2 bedrooms, kitchen with large terrace and bathroom, to rent in whole or in parts, 20 Avenue de la Liberté, 2nd floor.","20 Avenue de la Liberté,",,"  Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118"
-Housing (rent),Hotel de la post,"Furnished rooms for rent. Price 150—200 Fr. — HOTEL DE LA POSTE, Avenue de la Gare, Luxembourg. 9477","HOTEL DE LA POSTE, Avenue de la Gare",150-200,"  Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118"
+  Pub. 15 Page 7. (1938, November 8). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1938-11-08-a-i0098",49.6137369,6.1294788
+Housing (rent),3-4 rooms house (rue du nord),"Newly restored ground floor available for rent immediately,   corner house at 21 Nord- and Leonardstraße, Bonnevoie, comprising 3–4 rooms plus mansard, suitable for a shop, office, or warehouse/depot. — Inquire on site from Madame SCHNEIDER, 1st floor. 4595   ","21 rue du nord , Luxembourg",,"Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118",49.6126757,6.13176
+Housing (rent),2 bedrooms (Avenue de la Liberte),"Very fine furnished apartment, parlor with grand piano, office, 2 bedrooms, kitchen with large terrace and bathroom, to rent in whole or in parts, 20 Avenue de la Liberté, 2nd floor.","20 Avenue de la Liberté,",,"  Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118",49.6047523,6.129679
+Housing (rent),Hotel de la post,"Furnished rooms for rent. Price 150—200 Fr. — HOTEL DE LA POSTE, Avenue de la Gare, Luxembourg. 9477","HOTEL DE LA POSTE, Avenue de la Gare",150-200,"  Pub. 47 Page 13. (1932, October 8). Luxemburger Wort, 13. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1932-10-08-a-i0118",49.6116,6.1319
 Housing (rent),9 rooms house (Bridelstraße),"House for rent, 9 rooms, located in Bereldange, Bridelstraße, partially or in whole, with 10 ares of garden, price 450 Fr. — Apply to Jean Schäfer, Bereldange. 3821","Bridelstraße, Bereldange, ",450,"
-  Pub. 27 Page 8. (1935, May 27). Luxemburger Wort, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1935-05-27-a-i0082"
+  Pub. 27 Page 8. (1935, May 27). Luxemburger Wort, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1935-05-27-a-i0082",49.6116,6.1319
 Housing (rent),6-rooms house (Avenue Gaston Diederich),"House for rent, 6 rooms,   kitchen, bathroom, central heating, hot and cold water, garage, gas, electricity, Bel'airstraße, 15,000 Fr. — Apply by Tel. 29-51. 988  ","Avenue Gaston Diederich, Luxembourg",15000,"
-  Pub. 36 Page 7. (1929, July 27). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-07-27-a-i0079"
-Dentist,Ad Schmit,,"Esch Alzette, Rue de lAlzette, 65",,tageblatt-1929-08-24-a-i0149
-Dentist,Adolphe Folmer,,"Luxembourg, Avenue de la Gare, 97",,luxwort-1931-01-19-a-i0074
-Dentist,Alfred Weber,,"Avenue de la Liberté, 35",,luxwort-1923-05-05-a-i0061
-Dentist,Alfred Weber,,"Luxembourg, rue des Bains, 4",,luxwort-1921-01-27-a-i0043
-Dentist,Aphonse Molitor,,"Avenue de la Liberte, 28",,luxwort-1928-12-06-a-i0053
-Dentist,Aug Thorn,,Boulevard Royal 25,,tageblatt-1929-08-02-a-i0119
-Dentist,Auguste Decker,,"Villa Collart, 3082",,tageblatt-1937-01-02-a-i0154
-Dentist,Baumgart W,,"Wellen, 8",,obermosel-1923-09-15-a-i0042
-Dentist,Bisenius,,Esch-Alz,,tageblatt-1932-09-19-a-i0074
-Dentist,Bisenius,,"Rue de V Alzette, 100",,tageblatt-1925-07-03-a-i0051
-Dentist,Calteux J P,,"Luxembourg, Gare, 7477",,luxwort-1924-05-01-a-i0035
-Dentist,Camille Backes,,Mondorf,,
-Dentist,Camille Welter,,"Place da Marché, 4336",,luxwort-1934-05-31-a-i0075
-Dentist,Camp Montbrun,,"rue Philippe, 21",,luxwort-1938-09-15-a-i0072
-Dentist,Campill F,,"rue Notre Dame, 23",,luxwort-1939-08-05-a-i0114
-Dentist,Charles SCHMID,,Bettemburg,,tageblatt-1939-07-24-a-i0096
-Dentist,Charles Thewes,,"avenue monterey, 17",,luxwort-1926-02-27-a-i0055
-Dentist,Dauphin,,"Mussetstrasse, 7",,luxwort-1930-11-06-a-i0059
-Dentist,Dr H. Petgen,,Bonneweg,,luxwort-1934-09-03-a-i0070
-Dentist,Dr J. Schiltz,,"avenue de la Liberté, 74",,luxwort-1939-08-08-a-i0086
-Dentist,Edmond Hoffmann,,"Kayl, rue du Commerce, 22",,tageblatt-1938-01-19-a-i0117
-Dentist,Emile Weinachter,,"16, rue Aldringer ",,luxembourg1935-1938-08-04-a-i0116
-Dentist,Engler Jos,,"Heinestraße, 10",,luxwort-1934-08-07-a-i0081
-Dentist,Ernest Deitz,,Ettelbruck,,luxwort-1925-08-14-a-i0062
-Dentist,Ernest Schneider,,"Luxembourg, Avenue Marie Therese, 24",,tageblatt-1929-07-15-a-i0112
-Dentist,Ernest Weber,,"BOSNEVEC, Bonnewegerstr, 110",,tageblatt-1939-08-08-a-i0096
-Dentist,Ferdy Campill,,"Luxembourg, Rue du Curé, 5bis",,luxwort-1924-06-04-b-i0015
-Dentist,Fischer J B,,"1 , Avenue de la Gare",,luxwort-1925-02-17-a-i0042
-Dentist,Fischer J B,,"Avenue de la Gare, 46",,indeplux-1933-05-03-a-i0033
-Dentist,Fischer J B,,"Luxembourg, 10 rue Jos Junck",,tageblatt-1930-07-10-a-i0106
-Dentist,n. Fixmer,,Grossstrasse 90,,
-Dentist,François Hippert,,"Heinestr, 8",,luxwort-1938-11-09-a-i0144
-Dentist,François Wirion,,"Avenue Monterey, 17",,luxwort-1919-10-16-a-i0022
-Dentist,Friedrich J P,,"place Guillaume, Luxembourg",,tageblatt-1932-04-06-a-i0113
-Dentist,Gaston Jungers,,"ROdange, Avenue de la Gare, 29",,tageblatt-1937-04-12-a-i0091
-Dentist,Gaston Ternes,,"Place de la Gare, 78",,luxwort-1938-01-21-a-i0122
-Dentist,Gust Decker,,"Luxembourg, Wilhelmsplatz, 9201",,tageblatt-1939-08-18-a-i0110
-Dentist,H. Petgen,,"Bonnewegstrasse, 131",,luxwort-1933-09-02-a-i0099
-Dentist,Hans Hansen,,Petingen,,luxwort-1939-08-02-a-i0077
-Dentist,Henri Kuntsch,,"Petange, Avenue de la gare, 19",,tageblatt-1936-10-08-a-i0113
-Dentist,Henri Sadler,,"Avenue de la Gare, 19",,luxwort-1936-10-24-a-i0085
-Dentist,Henri Sadler,,"Petange, Avenue de la gare, 19",,luxwort-1936-10-07-a-i0096
-Dentist,J. B. Fischer,,"Avenue de la Gare, 1",,luxwort-1925-03-10-a-i0061
-Dentist,Jean Pierre WELTER,,"Zlthastr, 20",,luxwort-1938-08-25-a-i0087
-Dentist,Jeanne Trierweiler,,"Luxembourg, 74?Avenue de la Liberté",,luxwort-1931-10-06-a-i0077
-Dentist,Jos Hoeltgen,,"Differdangen, Werkstrasse",,tageblatt-1929-07-17-b-i0054
-Dentist,Jos Hoeltgen,,Werkstrasse,,luxwort-1929-07-16-a-i0072
-Dentist,Jos Kremer,,"Rue bourbon, 5",,luxwort-1922-07-31-a-i0037
-Dentist,Joseph Schiltz,,"Avenue de la Liberté, 74",,luxwort-1938-09-22-a-i0067
-Dentist,JUNGBLUT,,"Luxembourg, Strassbnrgerstr, 100",,luxwort-1930-09-12-a-i0063
-Dentist,Knauff F.,,Montereystr 3,,luxwort-1938-01-21-a-i0122
-Dentist,Kremer Jos,,"Luxembourg, Rue Bourbon, 5",,luxwort-1922-09-01-a-i0050
-Dentist,Kroth Jos,,"Trier, Saarstrasse, 38",,luxwort-1923-02-08-a-i0053
-Dentist,Marcel KLEIN,,Wiltz (Lann) maison Thillens-Schaack,,luxwort-1938-09-26-a-i0096
-Dentist,Marcelle DAUPHIN,,"Grand rue, 84",,luxwort-1932-09-03-b-i0014
-Dentist,Marcelle Dauphin,,"Rue de L'Arsenal, 16",,tageblatt-1926-08-30-a-i0054
-Dentist,Marcelle Dauphin,,"rue Notre Dame, 38",,luxwort-1937-09-28-a-i0094
-Dentist,Mathfw Sehmitz,,"Avenu Pasteur, 8",,luxwort-1936-08-18-a-i0125
-Dentist,Mich KIEFFER,,"Rue Aldringer, 17",,luxembourg1935-1937-09-18-a-i0115
-Dentist,Helene (Stoltz) Phillipart ,,"Place d'Armes, 3",,indeplux-1926-08-07-a-i0031
-Dentist,MONTBRUN,,"Philipstrasse, 21",,luxwort-1937-04-05-a-i0097
-Dentist,N Fixmer,,"Avenue de l'Arsenal, 4",,indeplux-1919-09-27-a-i0054
-Dentist,NILLES,,"Alzettestrasse, 113",,tageblatt-1929-08-07-a-i0093
-Dentist,NILLES JOS,,"Esch Alzette, Alzettestrasse, 113",,tageblatt-1929-07-24-a-i0135
-Dentist,Paol PETERS,,"St. Theresienklinlk, Luxemburg-Bahnoph",,luxwort-1928-08-25-a-i0073
-Dentist,Paul FELLENS,,Clerf,,luxwort-1928-08-25-a-i0073
-Dentist,Paul Heisbourg,,"Place Guillaume, 7 rue Chimay 7",,luxwort-1931-01-05-a-i0062
-Dentist,Paul Schroel,,"Esch-sur-Alzette, Rue Xavier Brasseur, 12",,luxembourg1935-1937-06-26-a-i0114
-Dentist,Peschon Jos,,"Avenue de l Arsenal, 9",,luxwort-1933-08-02-a-i0084
-Dentist,Peter Bredimus,,"Esch, Victor Hugostrasse, 26",,luxwort-1926-06-19-a-i0057
-Dentist,Raoul Schroeder,,Eich,,tageblatt-1933-07-25-a-i0100
-Dentist,Raoul Schroeder,,"Eich, rue de Beggen, 12",,luxwort-1932-11-16-a-i0073
-Dentist,Reckinger Ad,,"Boulevard du Prince, 1",,luxwort-1923-05-24-a-i0041
-Dentist,René Picrion,,"Schuistrasse, 4",,tageblatt-1934-06-01-a-i0135
-Dentist,René Stoffel,,"Großstraße, 97",,luxwort-1937-09-23-a-i0083
-Dentist,René Tierweiler,,"Echternach, Rue de Luxembourg, 33",,luxembourg1935-1939-05-26-a-i0084
-Dentist,René Trierweiler,,"16, rue Glessener",,luxwort-1938-06-14-a-i0136
-Dentist,Robert Leesch,,"Avenue de la Liberté, 35",,luxwort-1931-02-01-a-i0072
-Dentist,Rudolph Pliefke,,"Bollendorf, Sauer Kirchstrasse, 59",,luxwort-1931-04-30-a-i0069
-Dentist,SCHILTZ Luc,,"Place d'Armes, 2",,luxembourg1935-1937-09-18-a-i0115
-Dentist,Schmit,,"Esch-Alzette, Rue de l Alzette, 65",,tageblatt-1929-08-16-a-i0140
-Dentist,Scholtes Eug,,"Esch Alzette, rue C M Spoo, 64",,luxwort-1936-06-04-a-i0098
-Dentist,Sinners,,"Kirchstrasse, 30",,tageblatt-1936-05-30-a-i0164
-Dentist,Helene (Stoltz) Phillipart ,,"rue du casino, 7",,luxwort-1930-12-13-a-i0089
-Dentist,Theisen Jos,,Esch,,luxwort-1938-01-31-a-i0090
-Dentist,Theisen Jos,,"Esch Alzette, Alzettestrasse, 4",,tageblatt-1934-06-01-a-i0135
-Dentist,Theo Rauchs,,Differdange,,tageblatt-1935-06-08-a-i0174
-Dentist,Theo Rauchs,,"Differdangen, Avenue de la Gare, 25",,tageblatt-1934-05-28-a-i0089
-Dentist,Theo Rauchs,,"Differdangen, Parc de Gerlache, 12",,tageblatt-1939-09-16-a-i0098
-Dentist,Theodore Michel,,"Luxembourg, Avenue de la Gare, 18",,indeplux-1926-09-24-a-i0034
-Dentist,Theodore Michel,,"LUXEMBURG, Grosstrasse, 47",,tageblatt-1929-08-08-a-i0129
-Dentist,Victor Thorn,,"Boulevard Royal, 49",,luxwort-1923-07-05-a-i0041
-Dentist,Waldbillig J P,,"ESCH, Gartenstrasse, 9",,tageblatt-1923-09-12-a-i0083
-Dentist,Weinacht Tit,,"Rue Aldringer, 19",,luxembourg1935-1938-08-09-a-i0117
-Dentist,WELTER J P,,Trois?Vierges,,luxwort-1933-09-02-a-i0099
-Dentist,Wolter,,Dudelingen,,tageblatt-1930-07-10-a-i0106
+  Pub. 36 Page 7. (1929, July 27). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-07-27-a-i0079",49.6116,6.1319
+Dentist,Ad Schmit,,"Esch Alzette, Rue de lAlzette, 65",,tageblatt-1929-08-24-a-i0149,49.6116,6.1319
+Dentist,Adolphe Folmer,,"Luxembourg, Avenue de la Gare, 97",,luxwort-1931-01-19-a-i0074,49.8485954,5.4427581
+Dentist,Alfred Weber,,"Avenue de la Liberté, 35",,luxwort-1923-05-05-a-i0061,49.5246021,5.8895072
+Dentist,Alfred Weber,,"Luxembourg, rue des Bains, 4",,luxwort-1921-01-27-a-i0043,49.6133946,6.1284693
+Dentist,Aphonse Molitor,,"Avenue de la Liberte, 28",,luxwort-1928-12-06-a-i0053,49.6032743,6.1327175
+Dentist,Aug Thorn,,Boulevard Royal 25,,tageblatt-1929-08-02-a-i0119,49.6133736,6.1272732
+Dentist,Auguste Decker,,"Villa Collart, 3082",,tageblatt-1937-01-02-a-i0154,49.6116,6.1319
+Dentist,Baumgart W,,"Wellen, 8",,obermosel-1923-09-15-a-i0042,49.6116,6.1319
+Dentist,Bisenius,,Esch-Alz,,tageblatt-1932-09-19-a-i0074,49.6116,6.1319
+Dentist,Bisenius,,"Rue de V Alzette, 100",,tageblatt-1925-07-03-a-i0051,49.5791063,6.0946298
+Dentist,Calteux J P,,"Luxembourg, Gare, 7477",,luxwort-1924-05-01-a-i0035,49.6037237,6.1276729
+Dentist,Camille Backes,,Mondorf,,,49.5118084,6.2965028
+Dentist,Camille Welter,,"Place da Marché, 4336",,luxwort-1934-05-31-a-i0075,50.1754752,5.5958309
+Dentist,Camp Montbrun,,"rue Philippe, 21",,luxwort-1938-09-15-a-i0072,49.6107708,6.1282144
+Dentist,Campill F,,"rue Notre Dame, 23",,luxwort-1939-08-05-a-i0114,49.6098781,6.1290888
+Dentist,Charles SCHMID,,Bettemburg,,tageblatt-1939-07-24-a-i0096,49.516899,6.1054552
+Dentist,Charles Thewes,,"avenue monterey, 17",,luxwort-1926-02-27-a-i0055,49.6107125,6.1275723
+Dentist,Dauphin,,"Mussetstrasse, 7",,luxwort-1930-11-06-a-i0059,49.6116,6.1319
+Dentist,Dr H. Petgen,,Bonneweg,,luxwort-1934-09-03-a-i0070,49.5961082,6.1398435
+Dentist,Dr J. Schiltz,,"avenue de la Liberté, 74",,luxwort-1939-08-08-a-i0086,49.60124,6.1325649
+Dentist,Edmond Hoffmann,,"Kayl, rue du Commerce, 22",,tageblatt-1938-01-19-a-i0117,49.6116,6.1319
+Dentist,Emile Weinachter,,"16, rue Aldringer ",,luxembourg1935-1938-08-04-a-i0116,49.6104481,6.1268351
+Dentist,Engler Jos,,"Heinestraße, 10",,luxwort-1934-08-07-a-i0081,49.6116,6.1319
+Dentist,Ernest Deitz,,Ettelbruck,,luxwort-1925-08-14-a-i0062,49.8508013,6.0897494
+Dentist,Ernest Schneider,,"Luxembourg, Avenue Marie Therese, 24",,tageblatt-1929-07-15-a-i0112,49.6072008,6.1209522
+Dentist,Ernest Weber,,"BOSNEVEC, Bonnewegerstr, 110",,tageblatt-1939-08-08-a-i0096,49.6116,6.1319
+Dentist,Ferdy Campill,,"Luxembourg, Rue du Curé, 5bis",,luxwort-1924-06-04-b-i0015,49.6112441,6.1307423
+Dentist,Fischer J B,,"1 , Avenue de la Gare",,luxwort-1925-02-17-a-i0042,49.6045016,6.1336584
+Dentist,Fischer J B,,"Avenue de la Gare, 46",,indeplux-1933-05-03-a-i0033,49.6022446,6.1327978
+Dentist,Fischer J B,,"Luxembourg, 10 rue Jos Junck",,tageblatt-1930-07-10-a-i0106,49.6116,6.1319
+Dentist,n. Fixmer,,Grossstrasse 90,,,49.8679929,6.1600029
+Dentist,François Hippert,,"Heinestr, 8",,luxwort-1938-11-09-a-i0144,49.6116,6.1319
+Dentist,François Wirion,,"Avenue Monterey, 17",,luxwort-1919-10-16-a-i0022,49.6107125,6.1275723
+Dentist,Friedrich J P,,"place Guillaume, Luxembourg",,tageblatt-1932-04-06-a-i0113,49.8695384,6.1574415
+Dentist,Gaston Jungers,,"ROdange, Avenue de la Gare, 29",,tageblatt-1937-04-12-a-i0091,49.6116,6.1319
+Dentist,Gaston Ternes,,"Place de la Gare, 78",,luxwort-1938-01-21-a-i0122,49.6005659,6.133357
+Dentist,Gust Decker,,"Luxembourg, Wilhelmsplatz, 9201",,tageblatt-1939-08-18-a-i0110,49.6116,6.1319
+Dentist,H. Petgen,,"Bonnewegstrasse, 131",,luxwort-1933-09-02-a-i0099,49.6116,6.1319
+Dentist,Hans Hansen,,Petingen,,luxwort-1939-08-02-a-i0077,49.5504865,5.8572467
+Dentist,Henri Kuntsch,,"Petange, Avenue de la gare, 19",,tageblatt-1936-10-08-a-i0113,49.6116,6.1319
+Dentist,Henri Sadler,,"Avenue de la Gare, 19",,luxwort-1936-10-24-a-i0085,49.603752,6.1336189
+Dentist,Henri Sadler,,"Petange, Avenue de la gare, 19",,luxwort-1936-10-07-a-i0096,49.6116,6.1319
+Dentist,J. B. Fischer,,"Avenue de la Gare, 1",,luxwort-1925-03-10-a-i0061,49.6045016,6.1336584
+Dentist,Jean Pierre WELTER,,"Zlthastr, 20",,luxwort-1938-08-25-a-i0087,49.6116,6.1319
+Dentist,Jeanne Trierweiler,,"Luxembourg, 74?Avenue de la Liberté",,luxwort-1931-10-06-a-i0077,49.60124,6.1325649
+Dentist,Jos Hoeltgen,,"Differdangen, Werkstrasse",,tageblatt-1929-07-17-b-i0054,49.6116,6.1319
+Dentist,Jos Hoeltgen,,Werkstrasse,,luxwort-1929-07-16-a-i0072,49.6116,6.1319
+Dentist,Jos Kremer,,"Rue bourbon, 5",,luxwort-1922-07-31-a-i0037,49.6052664,6.1006629
+Dentist,Joseph Schiltz,,"Avenue de la Liberté, 74",,luxwort-1938-09-22-a-i0067,49.60124,6.1325649
+Dentist,JUNGBLUT,,"Luxembourg, Strassbnrgerstr, 100",,luxwort-1930-09-12-a-i0063,49.6116,6.1319
+Dentist,Knauff F.,,Montereystr 3,,luxwort-1938-01-21-a-i0122,49.6116,6.1319
+Dentist,Kremer Jos,,"Luxembourg, Rue Bourbon, 5",,luxwort-1922-09-01-a-i0050,49.6052664,6.1006629
+Dentist,Kroth Jos,,"Trier, Saarstrasse, 38",,luxwort-1923-02-08-a-i0053,49.6116,6.1319
+Dentist,Marcel KLEIN,,Wiltz (Lann) maison Thillens-Schaack,,luxwort-1938-09-26-a-i0096,49.6116,6.1319
+Dentist,Marcelle DAUPHIN,,"Grand rue, 84",,luxwort-1932-09-03-b-i0014,49.612434,6.1272146
+Dentist,Marcelle Dauphin,,"Rue de L'Arsenal, 16",,tageblatt-1926-08-30-a-i0054,49.6116,6.1319
+Dentist,Marcelle Dauphin,,"rue Notre Dame, 38",,luxwort-1937-09-28-a-i0094,49.4848126,6.029601
+Dentist,Mathfw Sehmitz,,"Avenu Pasteur, 8",,luxwort-1936-08-18-a-i0125,49.6116,6.1319
+Dentist,Mich KIEFFER,,"Rue Aldringer, 17",,luxembourg1935-1937-09-18-a-i0115,49.6117924,6.1269909
+Dentist,Helene (Stoltz) Phillipart ,,"Place d'Armes, 3",,indeplux-1926-08-07-a-i0031,49.6110135,6.129854
+Dentist,MONTBRUN,,"Philipstrasse, 21",,luxwort-1937-04-05-a-i0097,49.6116,6.1319
+Dentist,N Fixmer,,"Avenue de l'Arsenal, 4",,indeplux-1919-09-27-a-i0054,49.6116,6.1319
+Dentist,NILLES,,"Alzettestrasse, 113",,tageblatt-1929-08-07-a-i0093,49.4929516,5.9789219
+Dentist,NILLES JOS,,"Esch Alzette, Alzettestrasse, 113",,tageblatt-1929-07-24-a-i0135,49.4942088,5.9816575
+Dentist,Paol PETERS,,"St. Theresienklinlk, Luxemburg-Bahnoph",,luxwort-1928-08-25-a-i0073,49.6116,6.1319
+Dentist,Paul FELLENS,,Clerf,,luxwort-1928-08-25-a-i0073,50.0547912,6.0275511
+Dentist,Paul Heisbourg,,"Place Guillaume, 7 rue Chimay 7",,luxwort-1931-01-05-a-i0062,49.6116,6.1319
+Dentist,Paul Schroel,,"Esch-sur-Alzette, Rue Xavier Brasseur, 12",,luxembourg1935-1937-06-26-a-i0114,49.6116,6.1319
+Dentist,Peschon Jos,,"Avenue de l Arsenal, 9",,luxwort-1933-08-02-a-i0084,49.6116,6.1319
+Dentist,Peter Bredimus,,"Esch, Victor Hugostrasse, 26",,luxwort-1926-06-19-a-i0057,49.6116,6.1319
+Dentist,Raoul Schroeder,,Eich,,tageblatt-1933-07-25-a-i0100,49.6277547,6.1289887
+Dentist,Raoul Schroeder,,"Eich, rue de Beggen, 12",,luxwort-1932-11-16-a-i0073,49.6116,6.1319
+Dentist,Reckinger Ad,,"Boulevard du Prince, 1",,luxwort-1923-05-24-a-i0041,49.6116,6.1319
+Dentist,René Picrion,,"Schuistrasse, 4",,tageblatt-1934-06-01-a-i0135,49.6116,6.1319
+Dentist,René Stoffel,,"Großstraße, 97",,luxwort-1937-09-23-a-i0083,49.4967581,5.9824158
+Dentist,René Tierweiler,,"Echternach, Rue de Luxembourg, 33",,luxembourg1935-1939-05-26-a-i0084,49.811747,6.4189763
+Dentist,René Trierweiler,,"16, rue Glessener",,luxwort-1938-06-14-a-i0136,49.6116,6.1319
+Dentist,Robert Leesch,,"Avenue de la Liberté, 35",,luxwort-1931-02-01-a-i0072,49.5246021,5.8895072
+Dentist,Rudolph Pliefke,,"Bollendorf, Sauer Kirchstrasse, 59",,luxwort-1931-04-30-a-i0069,49.6116,6.1319
+Dentist,SCHILTZ Luc,,"Place d'Armes, 2",,luxembourg1935-1937-09-18-a-i0115,49.611347,6.129969
+Dentist,Schmit,,"Esch-Alzette, Rue de l Alzette, 65",,tageblatt-1929-08-16-a-i0140,49.6116,6.1319
+Dentist,Scholtes Eug,,"Esch Alzette, rue C M Spoo, 64",,luxwort-1936-06-04-a-i0098,49.6116,6.1319
+Dentist,Sinners,,"Kirchstrasse, 30",,tageblatt-1936-05-30-a-i0164,49.5985762,6.118788
+Dentist,Helene (Stoltz) Phillipart ,,"rue du casino, 7",,luxwort-1930-12-13-a-i0089,49.6819115,5.8159788
+Dentist,Theisen Jos,,Esch,,luxwort-1938-01-31-a-i0090,49.4918614,5.9846053
+Dentist,Theisen Jos,,"Esch Alzette, Alzettestrasse, 4",,tageblatt-1934-06-01-a-i0135,49.6116,6.1319
+Dentist,Theo Rauchs,,Differdange,,tageblatt-1935-06-08-a-i0174,49.5219856,5.8753061
+Dentist,Theo Rauchs,,"Differdangen, Avenue de la Gare, 25",,tageblatt-1934-05-28-a-i0089,49.6116,6.1319
+Dentist,Theo Rauchs,,"Differdangen, Parc de Gerlache, 12",,tageblatt-1939-09-16-a-i0098,49.6116,6.1319
+Dentist,Theodore Michel,,"Luxembourg, Avenue de la Gare, 18",,indeplux-1926-09-24-a-i0034,49.6036022,6.1329119
+Dentist,Theodore Michel,,"LUXEMBURG, Grosstrasse, 47",,tageblatt-1929-08-08-a-i0129,49.6116,6.1319
+Dentist,Victor Thorn,,"Boulevard Royal, 49",,luxwort-1923-07-05-a-i0041,49.6117175,6.1263025
+Dentist,Waldbillig J P,,"ESCH, Gartenstrasse, 9",,tageblatt-1923-09-12-a-i0083,49.6116,6.1319
+Dentist,Weinacht Tit,,"Rue Aldringer, 19",,luxembourg1935-1938-08-09-a-i0117,49.6116524,6.1270291
+Dentist,WELTER J P,,Trois?Vierges,,luxwort-1933-09-02-a-i0099,49.6116,6.1319
+Dentist,Wolter,,Dudelingen,,tageblatt-1930-07-10-a-i0106,49.4799132,6.0893963
 Event,M O L O C H (Comedy),"Municipal Theatre of Luxembourg.   Reopening.   DEMANNÉ TOURS.   THURSDAY, September 26, 1929.   M O L O C H   Comedy in four acts by A. Boussac de St. Marc.   Stage music by Michel Maurice LÉVY, featuring Mr. Le BARGY and Mrs. Suzanne DEVOYOD, members (sociétaires) of the Comédie-Française.   TICKET PRICES:   Balcony 1st and 2nd row: Fr. 25.00; Balcony 3rd row: Fr. 20.00; Stalls: Fr. 25.00; Main Floor / Orchestra (Parquet): Fr. 15.00; Pit (Parterre): Fr. 10.00; Amphitheatre: Fr. 6.00, cloakroom included.  ","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","TICKET PRICES:   Balcony 1st and 2nd row: Fr. 25.00; Balcony 3rd row: Fr. 20.00; Stalls: Fr. 25.00; Main Floor / Orchestra (Parquet): Fr. 15.00; Pit (Parterre): Fr. 10.00; Amphitheatre: Fr. 6.00,","
-  Pub. 34 Page 7. (1929, October 2). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-10-02-a-i0063"
-Event,Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein,"Popular / Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein.   180 Singers   Saturday, Nov. 19, at 8:30 PM in the CERCLE, Luxembourg.   Advance ticket price Fr. 15.—.   Advance sales until Thursday evening, November 17, at Music House SCHELLENBERG (Avenue de la Liberté), Music House WOLF (Heiliggeiststrasse), and G. HAMEL (5 Zithastrasse), Luxembourg. 6799","2 Rue Genistre, 1623 Ville-Haute Luxembourg",Advance ticket price Fr. 15,"(1932, November 12). Escher Tageblatt, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/tageblatt-1932-11-12-a-i0141"
+  Pub. 34 Page 7. (1929, October 2). Luxemburger Wort, 7. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1929-10-02-a-i0063",49.6126494,6.1307359
+Event,Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein,"Popular / Folk   CONCERT   by the MGV (Men's Choral Society) Liederkranz Oberstein.   180 Singers   Saturday, Nov. 19, at 8:30 PM in the CERCLE, Luxembourg.   Advance ticket price Fr. 15.—.   Advance sales until Thursday evening, November 17, at Music House SCHELLENBERG (Avenue de la Liberté), Music House WOLF (Heiliggeiststrasse), and G. HAMEL (5 Zithastrasse), Luxembourg. 6799","2 Rue Genistre, 1623 Ville-Haute Luxembourg",Advance ticket price Fr. 15,"(1932, November 12). Escher Tageblatt, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/tageblatt-1932-11-12-a-i0141",49.6114918,6.1303409
 Event,Children's Matinee  organized by the UNION OF WOMEN OF FRANCE ,"Municipal Theatre of Luxembourg   
 
 Box office: 2:00 PM — Curtain: 3:00 PM   
@@ -214,9 +214,9 @@ Stage Management: M. Josy IMDAHL and Mme M. TRESCH
 TICKET PRICES: Balconies 1st and 2nd row: Fr. 12.00; Balcony 3rd row: Fr. 10.00; Orchestra stalls: Fr. 12.00; Center stalls: Fr. 10.00; Side stalls and side box: Fr. 8.00; Parquet: Fr. 7.00; Pit (Parterre): Fr. 5.00; Amphitheatre: Fr. 3.00, cloakroom included.   
 For ticket rentals/reservations, apply at the theatre box office on WEDNESDAY, December 21, from 1:15 to 2:30 PM and from 6:00 to 7:00 PM, and on THURSDAY, December 22, from 2:00 PM onwards.   
 IMPORTANT NOTICE: To avoid errors and omissions, please reserve seats in writing and not by telephone. — Pre-ordered tickets must be collected fifteen minutes before the performance. 6500   ","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","Balconies 1st and 2nd row: Fr. 12.00; Balcony 3rd row: Fr. 10.00; Orchestra stalls: Fr. 12.00; Center stalls: Fr. 10.00; Side stalls and side box: Fr. 8.00; Parquet: Fr. 7.00; Pit (Parterre): Fr. 5.00; Amphitheatre: Fr. 3.00, cloakroom included.","
-  Publicité 7 Page 6. (1938, December 21). Luxembourg (1935), 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1938-12-21-a-i0099"
+  Publicité 7 Page 6. (1938, December 21). Luxembourg (1935), 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1938-12-21-a-i0099",49.6126494,6.1307359
 Café,Restaurant Josy COMES,,PHILIPPSTRASSE,,"
-  Publicité 9 Page 8. (1937, June 21). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-06-21-a-i0081"
+  Publicité 9 Page 8. (1937, June 21). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-06-21-a-i0081",49.6116,6.1319
 Café,Cecil & Regina,"RESTAURANT of the 
 Combined Hotels Cecil & Regina,   
 LUXEMBOURG-STATION,   
@@ -229,12 +229,12 @@ and à la carte.
 Natural wines - Diekirch Beers   
 ON TAP / ON DRAUGHT: Wellensteiner Veilchenberg.   ","32/34 Rue Joseph Junck, Luxembourg","Soup or appetizer, one main dish of choice, dessert Frs. 12.-   
 Soup or appetizer, two main dishes, dessert Frs. 16.-   ","
-  Pub. 27 Page 6. (1931, April 29). Luxemburger Wort, 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1931-04-29-a-i0070"
+  Pub. 27 Page 6. (1931, April 29). Luxemburger Wort, 6. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1931-04-29-a-i0070",49.6005141,6.1319108
 Café,"Café-Restaurant
 Mme A. Brasseur-Fischbach ","Good food, good drink, and cozy comfort await you at the Café-Restaurant
 Mme A. Brasseur-Fischbach 37 Avenue de la Liberté
 Luxembourg-Station district next to Paris-Palace. 250","37 Avenue de la Liberté, Luxembourg",,"
-  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089"
+  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089",49.6068006,6.1282614
 Event,Lyric gala,"MUNICIPAL THEATRE OF LUXEMBOURG.
 Box office: 8:00 PM — Curtain: 8:30 PM
 THURSDAY, February 25, 1937
@@ -265,7 +265,7 @@ Stage Director: Georges Villiez. — Set Design: Jules Van Dievoet.
 Ticket prices: Balconies 1st and 2nd row: Fr. 30; Balcony 3rd row: Fr. 25; Orchestra stalls: Fr. 30; Center stalls: Fr. 27; Side stalls: Fr. 18; Parquet: Fr. 15; Pit (Parterre): Fr. 10; Amphitheatre: Fr. 6, cloakroom included.
 For reservations, apply at the theatre box office: WEDNESDAY, February 24, from 1:15 to 2:30 PM and from 6:00 to 7:00 PM, and THURSDAY, February 25, from 1:15 to 2:30 PM and half an hour before the performance.
 Subscribers are requested to collect their tickets before THURSDAY at 2:00 PM.
-Important Notice. — To avoid errors and omissions, please order seats in writing and not by telephone at the municipal theatre booking office. — Pre-ordered tickets must be collected fifteen minutes before the performance.","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","Ticket prices: Balconies 1st and 2nd row: Fr. 30; Balcony 3rd row: Fr. 25; Orchestra stalls: Fr. 30; Center stalls: Fr. 27; Side stalls: Fr. 18; Parquet: Fr. 15; Pit (Parterre): Fr. 10; Amphitheatre: Fr. 6, cloakroom included.","  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089"
+Important Notice. — To avoid errors and omissions, please order seats in writing and not by telephone at the municipal theatre booking office. — Pre-ordered tickets must be collected fifteen minutes before the performance.","9 Pl. du Théâtre, 2613 Ville-Haute Luxembourg","Ticket prices: Balconies 1st and 2nd row: Fr. 30; Balcony 3rd row: Fr. 25; Orchestra stalls: Fr. 30; Center stalls: Fr. 27; Side stalls: Fr. 18; Parquet: Fr. 15; Pit (Parterre): Fr. 10; Amphitheatre: Fr. 6, cloakroom included.","  Publicité 6 Page 8. (1937, February 22). Obermosel-Zeitung, 8. National Library of Luxembourg. https://impresso-project.ch/app/content-item/obermosel-1937-02-22-a-i0089",49.6126494,6.1307359
 Café,KONS Hotel-Brasserie ,"
 KONS Hotel-Brasserie   
 LUXEMBOURG   
@@ -276,9 +276,9 @@ and Dinners Restaurant Fr. 18.00
 — FIXED PRICE — 10   
 Tea Room from 3 to 6 o'clock   ","26 Pl. de la Gare, 2965 Gare Luxembourg","LunchesBrasserie  Fr. 12.50   
 and Dinners Restaurant Fr. 18.00  ","
-  Publicité 4 Page 3. (1935, April 16). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-04-16-a-i0072"
+  Publicité 4 Page 3. (1935, April 16). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-04-16-a-i0072",49.6001206,6.1330212
 Accident,Road accident (Boulevard Royal),"Road Accident. — Yesterday evening around 8:00 PM at the intersection of Avenue Marie-Thérèse and Boulevard Royal, a fast-moving automobile struck a pedestrian who, due to the violence of the impact, was thrown 10 meters. It is feared that he suffered serious injuries. The police immediately opened an investigation.","32 Bd Royal, 2449 Ville-Haute Luxembourg",,"
-  Accident de la route. (1935, July 29). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-07-29-a-i0025"
+  Accident de la route. (1935, July 29). Luxembourg (1935), 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxembourg1935-1935-07-29-a-i0025",49.6135694,6.1268755
 Café,Café des Bours,"
 OPENING   of the  ""Café des Boursiers""   
 Luxembourg City, 8 Neutorstraße  on Saturday, April 29.   
@@ -286,59 +286,59 @@ Luxembourg City, 8 Neutorstraße  on Saturday, April 29.
 First-class beverages/refreshments — Cold buffet   
 MOUSEL-PILSEN    Altmünster-Urhell   
 3838 Proprietor E. KLEEBLATT.   ","8, rue de la Porte Neuve",,"
-  Pub. 50 Page 12. (1933, April 29). Luxemburger Wort, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1933-04-29-a-i0131"
+  Pub. 50 Page 12. (1933, April 29). Luxemburger Wort, 12. National Library of Luxembourg. https://impresso-project.ch/app/content-item/luxwort-1933-04-29-a-i0131",49.6846372,5.8142083
 Accident,Car Accident   (Boulevard de la Petrusse),"Car Accident   
 ✶ Emerging at high speed from Boulevard de la Pétrusse on Saturday around 5:00 PM, the car of a merchant from Place Wallis struck the 9-year-old daughter of Mr. Jacquemart at the corner of Avenue de la Gare. A wheel of the vehicle ran over the child's foot, who fortunately was only slightly injured. Mr. Jacquemart immediately filed a complaint against the careless driver.","1 Av. de la Gare, 1611 Gare Luxembourg",,"
-  Accident d’auto. (1924, July 13). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1924-07-13-a-i0043"
+  Accident d’auto. (1924, July 13). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1924-07-13-a-i0043",49.6045016,6.1336584
 Accident,Car Theft (Grund),"Car Theft   Yesterday evening, a retiree/man of independent means from Boulevard de la Foire had gone to one of the establishments in the Station district. When he left around midnight, his car, which he had left in front of the door, had disappeared. The police, immediately notified, gave chase and found the runaway car in the suburb of the Grund. The thieves did not know that the bridge over the Pétrusse was under repair and crashed into the fence surrounding the construction site. The car came very close to falling into the stream. The thieves were therefore forced to continue on foot. At present, they are still at large.","7 Rue Münster, 2160 Grund Luxembourg",,"
-  Vol d’auto. (1925, May 16). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1925-05-16-a-i0039"
+  Vol d’auto. (1925, May 16). L’indépendance Luxembourgeoise, 3. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1925-05-16-a-i0039",49.6096431,6.1357602
 Accident,Prank,"Ridiculous Prank   Unknown individuals, after removing the wire mesh closing off the niche where ""Peter Unruh"" rests in the St-Crispin rock, moved the statue onto one of the nearby benches.  ",1535 Limpertsberg Luxembourg,,"Commencement d’incendie. (1922, February 22). L’indépendance Luxembourgeoise, 1. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1922-02-22-b-i00074
-  "
+  ",49.617793,6.1278053
 Dentist,Murder in a garage,"A Murder in a Garage   A tragedy unfolded last night on the outer boulevard under circumstances not yet fully explained.   Yesterday evening, Mr. Florent Frauenberg-Pauls, a horse trader residing on Boulevard de la Foire, was at the establishment called ""Vieux Luxembourg"" in the company of a certain Mr. Armand Krier, a car driver residing in Luxembourg.   Shortly after them, there also arrived the named Dominique Kersch, 24 years old, a mechanic in Esch-sur-Alzette (mistyped as Aix-sur-Alzette), and two of his friends who had accompanied him on a sidecar ride.   A brief altercation occurred at one point between the companions of Kersch and Frauenberg. However, the argument did not last. Around 12:15 AM, as they were preparing to leave, Kersch told Frauenberg and Krier that a rather serious breakdown had occurred with his sidecar. The latter examined it, and finally Frauenberg proposed to carry out the necessary repairs at the former Wag- garage located on Boulevard Extérieur, currently operated by Messrs. Hoffmann and Pauls, the latter being Frauenberg's brother-in-law.
 From the moment the men entered the garage, a bit of mystery—which, moreover, would soon be dispelled—shrouded the tragedy. According to the information obtained at the present time, just as the repair was about to be completed and Kersch was still bent over the machine, he received a formidable blow to the back of his neck delivered with a club or a hammer. Kersch stated that he managed to straighten up and wanted to defend himself against Frauenberg, who fled. Kersch then had time to grab his revolver; he fired and Frauenberg fell struck dead.
 Meanwhile, Krier had hidden behind an automobile, but Kersch, threatening him with his revolver, forced him to come out of his hiding place, enter the office, and keep his hands in the air. Once there, Kersch telephoned the police to report that he was being attacked by bandits and that he had killed a man. Then he waited, continuing to aim his revolver at Krier, who remained in the same position.
 It was in this situation that Commissioner Entringer and his officers found the two men. It was then two o'clock in the morning.
 At the time of writing, the Public Prosecutor's Office is carrying out the usual investigations, and the results will no doubt soon be known, along with the conclusions of the forensic doctor in charge of the autopsy.
 Frauenberg, born July 7, 1890, married since 1914, was the father of a young daughter.",Bd Grande-Duchesse Charlotte,,"
-  Un meurtre dans un Garage. (1922, March 20). L’indépendance Luxembourgeoise, 1. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1922-03-20-a-i0048"
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
-Dentist,,,,,
+  Un meurtre dans un Garage. (1922, March 20). L’indépendance Luxembourgeoise, 1. National Library of Luxembourg. https://impresso-project.ch/app/content-item/indeplux-1922-03-20-a-i0048",49.6086889,6.1196528
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
+Dentist,,,,,,47.1651299,-1.2725926
