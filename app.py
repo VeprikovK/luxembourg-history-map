@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import folium
@@ -12,7 +13,7 @@ st.set_page_config(layout="wide", page_title="Luxembourg Historical Map Prototyp
 st.title("🏛️ Luxembourg City Historical & Rental Map")
 st.markdown("Prototype showcasing historical locations, businesses, and available spaces.")
 
-# Инициализация состояния карты (центральные координаты и зум по умолчанию)
+# Инициализация состояния карты
 if 'map_center' not in st.session_state:
     st.session_state.map_center = [49.6116, 6.1319]
 if 'map_zoom' not in st.session_state:
@@ -25,6 +26,13 @@ def load_and_geocode_data(file_path):
     
     # Clean column names
     df.columns = df.columns.str.strip().str.title()
+
+    # Автоматическое извлечение года из колонки Source (ищет 4 знака, начинающиеся с 18, 19 или 20)
+    if 'Source' in df.columns:
+        df['Year'] = df['Source'].astype(str).str.extract(r'(18\d{2}|19\d{2}|20\d{2})')[0]
+        df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
+    else:
+        df['Year'] = None
 
     geolocator = Nominatim(user_agent="luxembourg_history_prototype")
     geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
@@ -82,6 +90,13 @@ search_query = st.sidebar.text_input("Search Keyword (Name / Description):", "")
 all_types = df['Type'].astype(str).unique().tolist()
 selected_types = st.sidebar.multiselect("Filter by Type:", options=all_types, default=all_types)
 
+# --- Фильтр по годам ---
+all_years = sorted([int(y) for y in df['Year'].dropna().unique()])
+if all_years:
+    selected_years = st.sidebar.multiselect("Filter by Year:", options=all_years, default=all_years)
+else:
+    selected_years = []
+
 # --- ЛЕГЕНДА КАРТЫ ---
 st.sidebar.markdown("---")
 st.sidebar.subheader("🎨 Легенда карты")
@@ -97,8 +112,12 @@ st.sidebar.markdown(
     unsafe_allow_html=True
 )
 
-# Apply Filters to DataFrame
+# Apply Filters to DataFrame (Type + Year + Search)
 filtered_df = df[df['Type'].astype(str).isin(selected_types)]
+
+if all_years and selected_years:
+    # Оставляем объекты, у которых год входит в выбранный список, либо год не указан (NaN)
+    filtered_df = filtered_df[filtered_df['Year'].isin(selected_years) | filtered_df['Year'].isna()]
 
 if search_query:
     name_match = filtered_df['Name'].astype(str).str.contains(search_query, case=False, na=False)
@@ -111,14 +130,17 @@ col1, col2 = st.columns([2, 1])
 with col1:
     st.subheader(f"Map View ({len(filtered_df)} spots found)")
     
-    # Карта теперь использует координаты из session_state (центрируется по клику)
     m = folium.Map(location=st.session_state.map_center, zoom_start=st.session_state.map_zoom, tiles="OpenStreetMap")
     
     for idx, row in filtered_df.iterrows():
+        # Добавим вывод года в попап, если он нашелся
+        year_str = f"<p><b>Year:</b> {int(row['Year'])}</p>" if pd.notna(row.get('Year')) else ""
+        
         popup_html = f"""
         <div style="width: 200px;">
             <h4>{row['Name']}</h4>
             <p><b>Type:</b> {row['Type']}</p>
+            {year_str}
             <p><b>Address:</b> {row['Address']}</p>
             <p><b>Price:</b> {row.get('Price', 'N/A')}</p>
             <p><i>{row.get('Description', '')}</i></p>
@@ -149,16 +171,18 @@ with col2:
     st.subheader("📋 Results & Details")
     with st.container(height=550):
         for idx, row in filtered_df.iterrows():
-            with st.expander(f"📍 {row['Name']} ({row['Type']})"):
+            year_label = f" ({int(row['Year'])})" if pd.notna(row.get('Year')) else ""
+            with st.expander(f"📍 {row['Name']}{year_label} ({row['Type']})"):
                 st.write(f"**Address:** {row['Address']}")
+                if pd.notna(row.get('Year')):
+                    st.write(f"**Year:** {int(row['Year'])}")
                 if pd.notna(row.get('Price')):
                     st.write(f"**Price:** {row['Price']}")
                 st.write(f"**Description:** {row['Description']}")
                 if pd.notna(row.get('Source')):
                     st.write(f"**Source:** {row['Source']}")
                 
-                # Кнопка центрирования карты на выбранном объекте
                 if st.button("🗺️ Show on the map", key=f"btn_{idx}"):
                     st.session_state.map_center = [row['Latitude'], row['Longitude']]
-                    st.session_state.map_zoom = 17  # Приближаем карту ближе к точке
+                    st.session_state.map_zoom = 17 
                     st.rerun()
