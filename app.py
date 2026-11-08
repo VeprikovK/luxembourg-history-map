@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import folium
 from streamlit_folium import st_folium
-from geopy.geocoders import Nominatim
-from geopy.extra.rate_limiter import RateLimiter
-import re
 
 # Page Configuration
 st.set_page_config(layout="wide", page_title="Luxembourg Historical Map Prototype")
@@ -18,12 +15,10 @@ if 'map_center' not in st.session_state:
 if 'map_zoom' not in st.session_state:
     st.session_state.map_zoom = 14
 
-# 1. Load Data
+# 1. Load Data (уже с готовыми Latitude и Longitude)
 @st.cache_data
-def load_and_geocode_data(file_path):
+def load_data(file_path):
     df = pd.read_csv(file_path) if file_path.endswith('.csv') else pd.read_excel(file_path)
-    
-    # Clean column names
     df.columns = df.columns.str.strip().str.title()
 
     # Automatically extract year from the Source column
@@ -33,60 +28,10 @@ def load_and_geocode_data(file_path):
     else:
         df['Year'] = None
 
-    geolocator = Nominatim(user_agent="luxembourg_history_prototype")
-    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1)
-
-    latitudes = []
-    longitudes = []
-
-    for addr in df['Address']:
-        raw_addr = str(addr).strip()
-        full_query = raw_addr if "luxembourg" in raw_addr.lower() else f"{raw_addr}, Luxembourg"
-
-        # Attempt 1: Try full address
-        try:
-            location = geocode(full_query)
-            if location:
-                latitudes.append(location.latitude)
-                longitudes.append(location.longitude)
-                continue
-        except Exception:
-            pass
-
-        # Attempt 2: Fallback to Street Only
-        try:
-            street_only = re.sub(r'^\d+\s*', '', raw_addr).strip()
-            street_query = street_only if "luxembourg" in street_only.lower() else f"{street_only}, Luxembourg"
-            
-            location = geocode(street_query)
-            if location:
-                latitudes.append(location.latitude)
-                longitudes.append(location.longitude)
-                continue
-        except Exception:
-            pass
-
-        # Attempt 3: Ultimate fallback to City Center
-        latitudes.append(49.6116)
-        longitudes.append(6.1319)
-
-    df['Latitude'] = latitudes
-    df['Longitude'] = longitudes
     return df
 
-# Replace with your file path if needed
 data_path = "luxembourg_places.csv"
-
-# Load & Geocode
-with st.spinner("Loading map and geocoding addresses..."):
-    df = load_and_geocode_data(data_path)
-
-# --- MAP COLORS & AUTOMATIC COLOR ASSIGNMENT ---
-# Folium supports: red, blue, green, purple, orange, darkred, lightred, beige, darkblue, darkgreen, cadetblue, darkpurple, white, pink, lightblue, lightgreen, gray, black
-COLOR_PALETTE = [
-    "red", "blue", "green", "orange", "purple", "darkred", 
-    "cadetblue", "darkgreen", "darkblue", "pink", "gray"
-]
+df = load_data(data_path)
 
 def get_marker_color(type_str):
     t = str(type_str).lower()
@@ -94,7 +39,7 @@ def get_marker_color(type_str):
         return "purple"
     elif "accident" in t:
         return "darkred"
-    elif "caf" in t:  # Matches both 'cafe' and 'café'
+    elif "caf" in t:
         return "orange"
     elif "rent" in t:
         return "green"
@@ -115,12 +60,9 @@ selected_types = st.sidebar.multiselect("Filter by Type:", options=all_types, de
 
 # --- Year Filter ---
 all_years = sorted([int(y) for y in df['Year'].dropna().unique()])
-if all_years:
-    selected_years = st.sidebar.multiselect("Filter by Year:", options=all_years, default=all_years)
-else:
-    selected_years = []
+selected_years = st.sidebar.multiselect("Filter by Year:", options=all_years, default=all_years) if all_years else []
 
-# --- DYNAMIC MAP LEGEND ---
+# --- MAP LEGEND ---
 st.sidebar.markdown("---")
 st.sidebar.subheader("🎨 Map Legend")
 
@@ -132,7 +74,7 @@ legend_html += '</div>'
 
 st.sidebar.markdown(legend_html, unsafe_allow_html=True)
 
-# Apply Filters to DataFrame
+# Apply Filters
 filtered_df = df[df['Type'].astype(str).isin(selected_types)]
 
 if all_years and selected_years:
