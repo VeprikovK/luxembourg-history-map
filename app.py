@@ -96,14 +96,20 @@ with col1:
     for idx, row in filtered_df.iterrows():
         year_str = f"<p><b>Year:</b> {int(row['Year'])}</p>" if pd.notna(row.get('Year')) else ""
         
+        year_str = f"<p><b>Year:</b> {int(row['Year'])}</p>" if pd.notna(row.get('Year')) else ""
+        price_val = row.get('Price', 'N/A')
+        price_str = f"<p><b>Price:</b> {price_val}</p>" if pd.notna(price_val) and str(price_val).lower() != 'nan' else ""
+        desc_val = row.get('Description', '')
+        desc_str = f"<p><i>{desc_val}</i></p>" if pd.notna(desc_val) and str(desc_val).lower() != 'nan' else ""
+
         popup_html = f"""
-        <div style="width: 200px;">
-            <h4>{row['Name']}</h4>
-            <p><b>Type:</b> {row['Type']}</p>
+        <div style="width: 240px; max-height: 280px; overflow-y: auto; padding-right: 5px;">
+            <h4 style="margin-top: 0; margin-bottom: 8px;">{row['Name']}</h4>
+            <p style="margin: 4px 0;"><b>Type:</b> {row['Type']}</p>
             {year_str}
-            <p><b>Address:</b> {row['Address']}</p>
-            <p><b>Price:</b> {row.get('Price', 'N/A')}</p>
-            <p><i>{row.get('Description', '')}</i></p>
+            <p style="margin: 4px 0;"><b>Address:</b> {row['Address']}</p>
+            {price_str}
+            {desc_str}
         </div>
         """
         
